@@ -33,7 +33,16 @@ Merged into the official **Dart & Flutter VS Code extension** repository by [Dan
 
 [**VIEW THE MERGED PULL REQUEST**](https://github.com/Dart-Code/Dart-Code/pull/6301)
 
-### `03 / OPEN SOURCE // REVIEW QUEUE`
+### `03 / SHIPPED TO PRODUCTION`
+
+**[TASBEHATI / تسبيحاتي — Android on Google Play](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr)**  
+`Flutter` · `Android` · `Production release` · `Private source`
+
+A real-world Flutter Android app for tasbih, daily adhkar, Quran reading, prayer times, and AI-assisted spiritual guidance. Developed and shipped for Google Play distribution, with hands-on release management and mobile monetization work.
+
+**PUBLIC PRODUCT // PRIVATE CODE** — [**VIEW ON GOOGLE PLAY**](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr)
+
+### `04 / OPEN SOURCE // REVIEW QUEUE`
 
 These are **submitted contributions**, **not merged claims**. The pull request links show their current status.
 
@@ -46,7 +55,7 @@ These are **submitted contributions**, **not merged claims**. The pull request l
 | **Dart packages** | Restore repeated timeout behavior in `pool` | [#2763](https://github.com/dart-lang/tools/pull/2763) |
 | **Dart-Code** | VS Code command test coverage for `dart.createProject` | [#6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
 
-### `04 / BUILT IN THE SHADOWS`
+### `05 / BUILT IN THE SHADOWS`
 
 | Project | Engineering focus |
 | :--- | :--- |
@@ -54,7 +63,7 @@ These are **submitted contributions**, **not merged claims**. The pull request l
 | **[VoiceOps Controller](https://github.com/NemesisDevX/VoiceOps-Controller)** | Python/FastAPI voice-controlled infrastructure tooling with explicit human confirmation before changes, telemetry, and test coverage. |
 | **[Zero-Day AI Auditor](https://github.com/NemesisDevX/Zero-Day-AI-Auditor)** | Solidity security research prototype using heuristic analysis and controlled exploit simulation on a local Anvil EVM. Not a claim of discovered zero-days. |
 
-### `05 / TOOLCHAIN`
+### `06 / TOOLCHAIN`
 
 ```text
 LANGUAGES      Dart / Python / TypeScript / PHP
