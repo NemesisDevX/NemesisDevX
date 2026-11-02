@@ -6,7 +6,8 @@
   <p>
     <a href="https://github.com/NemesisDevX?tab=repositories"><strong>[ EXPLORE CODE ]</strong></a> &nbsp; / &nbsp;
     <a href="https://nemesisdevx.github.io/"><strong>[ PORTFOLIO ]</strong></a> &nbsp; / &nbsp;
-    <a href="https://github.com/Dart-Code/Dart-Code/pull/6301"><strong>[ VERIFIED MERGE ]</strong></a>
+    <a href="https://github.com/Dart-Code/Dart-Code/pull/6301"><strong>[ MERGED #6301 ]</strong></a> &nbsp; / &nbsp;
+    <a href="https://github.com/Dart-Code/Dart-Code/pull/6324"><strong>[ MERGED #6324 ]</strong></a>
   </p>
 
   <p>
@@ -33,6 +34,13 @@ Merged into the official **Dart & Flutter VS Code extension** repository by [Dan
 
 [**VIEW THE MERGED PULL REQUEST**](https://github.com/Dart-Code/Dart-Code/pull/6301)
 
+**[Dart-Code / Dart-Code — PR #6324](https://github.com/Dart-Code/Dart-Code/pull/6324)**  
+`Add test coverage for the dart.createProject command`
+
+Merged into the official **Dart & Flutter VS Code extension** repository on **November 2, 2026**. Added **12 focused tests** for Dart project creation, including template-fetch failures, input validation, cancellation paths, folder handling, and SDK settings. Improved `ChildProcessSpawnStub` test support; addressed review feedback from [DanTup](https://github.com/DanTup) and DanTupBot. AI-assisted engineering was disclosed in the PR.
+
+[**VIEW THE SECOND MERGED PULL REQUEST**](https://github.com/Dart-Code/Dart-Code/pull/6324)
+
 ### `03 / SHIPPED TO PRODUCTION`
 
 **[TASBEHATI / تسبيحاتي — Android on Google Play](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr)**  
@@ -53,7 +61,6 @@ These are **submitted contributions**, **not merged claims**. The pull request l
 | **Flutter DevTools** | Responsive Network toolbar and status footer | [#10057](https://github.com/flutter/devtools/pull/10057) |
 | **Flutter DevTools** | Reduce extension build size with conservative asset pruning | [#10063](https://github.com/flutter/devtools/pull/10063) |
 | **Dart packages** | Restore repeated timeout behavior in `pool` | [#2763](https://github.com/dart-lang/tools/pull/2763) |
-| **Dart-Code** | VS Code command test coverage for `dart.createProject` | [#6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
 
 ### `05 / BUILT IN THE SHADOWS`
 
