@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./assets/nemesis-banner.svg" alt="NEMESISDEVX — Build what others won't. Less noise. More code." width="100%" />
 
-  <p><samp>INDEPENDENT BUILDER // OPEN-SOURCE CONTRIBUTOR // NEMESISDEVX</samp></p>
+  <p><samp>INDEPENDENT BUILDER // 3 VERIFIED UPSTREAM MERGES // NEMESISDEVX</samp></p>
 
   <p>
     <a href="https://github.com/NemesisDevX?tab=repositories"><strong>[ EXPLORE CODE ]</strong></a> &nbsp; / &nbsp;
@@ -28,6 +28,8 @@ I work across application engineering, developer tooling, backend systems, and s
 
 ### `02 / MERGED INTO UPSTREAM`
 
+**3 merged, independently reviewed contributions** across the official Dart-Code and Apple Pkl Neovim open-source repositories. Each link opens the upstream PR, code review, and merge record.
+
 **[Dart-Code / Dart-Code — PR #6301](https://github.com/Dart-Code/Dart-Code/pull/6301)**  
 `Fix hidden ancestor directories breaking test filters and pubspec handling`
 
@@ -45,7 +47,7 @@ Merged into the official **Dart & Flutter VS Code extension** repository on **No
 **[Apple / pkl-neovim — PR #75](https://github.com/apple/pkl-neovim/pull/75)**  
 `Send LSP settings as a nested table`
 
-Merged into the official **apple/pkl-neovim** open-source repository on **November 3, 2026**. Fixed Pkl language-server configuration reaching Neovim as `null` by using nested settings for `workspace/configuration`. Added a headless Neovim regression test, `make test`, and GitHub Actions CI coverage after maintainer review. This is an upstream open-source contribution, **not Apple employment**. AI assistance was disclosed in the PR.
+Merged into the official **apple/pkl-neovim** open-source repository on **November 3, 2026**. Fixed Pkl language-server configuration reaching Neovim as `null` by using nested settings for `workspace/configuration`. Added a headless Neovim regression test, `make test`, and GitHub Actions CI coverage after maintainer review. The PR was reviewed and **approved** by [bioball](https://github.com/bioball), with the final [LGTM review](https://github.com/apple/pkl-neovim/pull/75#pullrequestreview-5758297668) after the requested `tests/` structure, `make test`, and CI improvements were implemented. This is an upstream open-source contribution, **not Apple employment**. AI assistance was disclosed in the PR.
 
 [**VIEW THE THIRD MERGED PULL REQUEST**](https://github.com/apple/pkl-neovim/pull/75)
 
