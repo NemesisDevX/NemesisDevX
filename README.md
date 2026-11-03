@@ -64,7 +64,7 @@ A real-world Flutter Android app for tasbih, daily adhkar, Quran reading, prayer
 
 These are **submitted contributions**, **not merged claims**. The pull request links show their live status.
 
-**Human review approved (Nov 2–3, 2026; not yet merged):** Flutter web accessibility [#195564](https://github.com/flutter/flutter/pull/195564#pullrequestreview-5758632957) and [#195578](https://github.com/flutter/flutter/pull/195578#pullrequestreview-5758459257) by [flutter-zl](https://github.com/flutter-zl), and Dart [package:pool #2763](https://github.com/dart-lang/tools/pull/2763) by [sigurdm](https://github.com/sigurdm). Approvals are distinct from merging; CI and maintainer gates may still apply.
+**Review approvals (Nov 2–3, 2026; not yet merged):** Flutter web accessibility [#195564](https://github.com/flutter/flutter/pull/195564#pullrequestreview-5758632957) and [#195578](https://github.com/flutter/flutter/pull/195578#pullrequestreview-5758459257) by [flutter-zl](https://github.com/flutter-zl); Dart [package:pool #2763](https://github.com/dart-lang/tools/pull/2763) by [sigurdm](https://github.com/sigurdm); and Dart-Code [#6332](https://github.com/Dart-Code/Dart-Code/pull/6332#pullrequestreview-5756260631) by DanTupBot (*reviewed with DanTup*). These are **four approved reviews, not four merges**. CI and maintainer gates may still apply.
 
 | Upstream project | Contribution | Pull request |
 | :--- | :--- | :--- |
@@ -73,6 +73,7 @@ These are **submitted contributions**, **not merged claims**. The pull request l
 | **Flutter DevTools** | Responsive Network toolbar and status footer | [#10057](https://github.com/flutter/devtools/pull/10057) |
 | **Flutter DevTools** | Reduce extension build size with conservative asset pruning | [#10063](https://github.com/flutter/devtools/pull/10063) |
 | **Dart packages** | **Approved review (unmerged)** — Restore repeated timeout behavior in `pool` | [#2763](https://github.com/dart-lang/tools/pull/2763) |
+| **Dart-Code** | **Approved review (unmerged)** — Test coverage for package commands and pubspec watching (DanTupBot with DanTup) | [#6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
 
 ### `05 / BUILT IN THE SHADOWS`
 
