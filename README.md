@@ -7,7 +7,8 @@
     <a href="https://github.com/NemesisDevX?tab=repositories"><strong>[ EXPLORE CODE ]</strong></a> &nbsp; / &nbsp;
     <a href="https://nemesisdevx.github.io/"><strong>[ PORTFOLIO ]</strong></a> &nbsp; / &nbsp;
     <a href="https://github.com/Dart-Code/Dart-Code/pull/6301"><strong>[ MERGED #6301 ]</strong></a> &nbsp; / &nbsp;
-    <a href="https://github.com/Dart-Code/Dart-Code/pull/6324"><strong>[ MERGED #6324 ]</strong></a>
+    <a href="https://github.com/Dart-Code/Dart-Code/pull/6324"><strong>[ MERGED #6324 ]</strong></a> &nbsp; / &nbsp;
+    <a href="https://github.com/apple/pkl-neovim/pull/75"><strong>[ APPLE PKL #75 MERGED ]</strong></a>
   </p>
 
   <p>
@@ -40,6 +41,13 @@ Merged into the official **Dart & Flutter VS Code extension** repository by [Dan
 Merged into the official **Dart & Flutter VS Code extension** repository on **November 2, 2026**. Added **12 focused tests** for Dart project creation, including template-fetch failures, input validation, cancellation paths, folder handling, and SDK settings. Improved `ChildProcessSpawnStub` test support; addressed review feedback from [DanTup](https://github.com/DanTup) and DanTupBot. AI-assisted engineering was disclosed in the PR.
 
 [**VIEW THE SECOND MERGED PULL REQUEST**](https://github.com/Dart-Code/Dart-Code/pull/6324)
+
+**[Apple / pkl-neovim — PR #75](https://github.com/apple/pkl-neovim/pull/75)**  
+`Send LSP settings as a nested table`
+
+Merged into the official **apple/pkl-neovim** open-source repository on **November 3, 2026**. Fixed Pkl language-server configuration reaching Neovim as `null` by using nested settings for `workspace/configuration`. Added a headless Neovim regression test, `make test`, and GitHub Actions CI coverage after maintainer review. This is an upstream open-source contribution, **not Apple employment**. AI assistance was disclosed in the PR.
+
+[**VIEW THE THIRD MERGED PULL REQUEST**](https://github.com/apple/pkl-neovim/pull/75)
 
 ### `03 / SHIPPED TO PRODUCTION`
 
