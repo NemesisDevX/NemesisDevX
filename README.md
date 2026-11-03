@@ -62,15 +62,17 @@ A real-world Flutter Android app for tasbih, daily adhkar, Quran reading, prayer
 
 ### `04 / OPEN SOURCE // REVIEW QUEUE`
 
-These are **submitted contributions**, **not merged claims**. The pull request links show their current status.
+These are **submitted contributions**, **not merged claims**. The pull request links show their live status.
+
+**Human review approved (Nov 2–3, 2026; not yet merged):** Flutter web accessibility [#195564](https://github.com/flutter/flutter/pull/195564#pullrequestreview-5758632957) and [#195578](https://github.com/flutter/flutter/pull/195578#pullrequestreview-5758459257) by [flutter-zl](https://github.com/flutter-zl), and Dart [package:pool #2763](https://github.com/dart-lang/tools/pull/2763) by [sigurdm](https://github.com/sigurdm). Approvals are distinct from merging; CI and maintainer gates may still apply.
 
 | Upstream project | Contribution | Pull request |
 | :--- | :--- | :--- |
-| **Flutter Engine** | Web slider accessibility: synchronize semantics when enabled | [#195564](https://github.com/flutter/flutter/pull/195564) |
-| **Flutter Engine** | Reset stale web scroll semantics offsets after content shrinks | [#195578](https://github.com/flutter/flutter/pull/195578) |
+| **Flutter Engine** | **Approved review (unmerged)** — Web slider accessibility: synchronize semantics when enabled | [#195564](https://github.com/flutter/flutter/pull/195564) |
+| **Flutter Engine** | **Approved review (unmerged)** — Reset stale web scroll semantics offsets after content shrinks | [#195578](https://github.com/flutter/flutter/pull/195578) |
 | **Flutter DevTools** | Responsive Network toolbar and status footer | [#10057](https://github.com/flutter/devtools/pull/10057) |
 | **Flutter DevTools** | Reduce extension build size with conservative asset pruning | [#10063](https://github.com/flutter/devtools/pull/10063) |
-| **Dart packages** | Restore repeated timeout behavior in `pool` | [#2763](https://github.com/dart-lang/tools/pull/2763) |
+| **Dart packages** | **Approved review (unmerged)** — Restore repeated timeout behavior in `pool` | [#2763](https://github.com/dart-lang/tools/pull/2763) |
 
 ### `05 / BUILT IN THE SHADOWS`
 
