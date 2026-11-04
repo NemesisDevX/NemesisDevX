@@ -12,10 +12,17 @@
     <a href="https://github.com/NemesisDevX?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-TESTED%20ENGINEERING-454c62?style=flat-square" alt="Tested engineering" /></a>
   </p>
   <p>
-    <a href="https://nemesisdevx.github.io/portfolio.html">Portfolio</a> &nbsp; · &nbsp;
+    <a href="https://nemesisdevx.github.io/portfolio.html">Engineering portfolio</a> &nbsp; · &nbsp;
     <a href="https://github.com/NemesisDevX?tab=repositories">Repositories</a> &nbsp; · &nbsp;
     <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">LinkedIn</a>
   </p>
+  <p>
+    <a href="mailto:abdelrhmanmahrous386@gmail.com"><img alt="Email" src="https://img.shields.io/badge/EMAIL-Contact%20me-8c2c47?style=flat-square&logo=gmail&logoColor=white" /></a>
+    <a href="https://wa.me/201067475499"><img alt="WhatsApp" src="https://img.shields.io/badge/WHATSAPP-Message%20me-1d9c69?style=flat-square&logo=whatsapp&logoColor=white" /></a>
+    <a href="https://t.me/+201067475499"><img alt="Telegram by phone" src="https://img.shields.io/badge/TELEGRAM-Message%20me-2685af?style=flat-square&logo=telegram&logoColor=white" /></a>
+    <a href="tel:+201067475499"><img alt="Phone" src="https://img.shields.io/badge/PHONE-%2B20%2010%206747%205499-343a4a?style=flat-square&logo=googlevoice&logoColor=white" /></a>
+  </p>
+  <p><sub>Based in Egypt &middot; Available for paid remote roles, contract work and focused engineering projects.</sub></p>
 </div>
 
 ---
@@ -80,11 +87,12 @@ These are **open contributions, not merged claims**. Status can change; follow e
 
 ## Selected engineering projects
 
-| Repository | Focus |
+| Project | Evidence and scope |
 | :--- | :--- |
-| [voxguard / PauseSignal](https://github.com/NemesisDevX/voxguard) | Flutter prototype exploring voice-scam risk indicators, reporting and family alerts — **not** a validated forensic detector. [Demo](https://nemesisdevx.github.io/voxguard/) |
-| [VoiceOps Controller](https://github.com/NemesisDevX/VoiceOps-Controller) | Python / FastAPI infrastructure controller with human-confirmed actions and test coverage |
-| [Zero-Day AI Auditor](https://github.com/NemesisDevX/Zero-Day-AI-Auditor) | Experimental Solidity audit tooling using heuristic checks and local Anvil simulations — no claim of discovered zero-days |
+| **[Tasbehati — shipped Android app](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr)** | Production Flutter release; Android delivery, Firebase integration, debugging and release engineering |
+| **[VoiceOps Controller](https://github.com/NemesisDevX/VoiceOps-Controller)** | Python / FastAPI infrastructure control, human confirmation for actions and regression testing |
+| **[voxguard / PauseSignal](https://github.com/NemesisDevX/voxguard)** | Flutter voice-scam risk prototype with family alerts; **experimental, not a validated detector** · [Demo](https://nemesisdevx.github.io/voxguard/) |
+| **[Zero-Day AI Auditor](https://github.com/NemesisDevX/Zero-Day-AI-Auditor)** | Experimental Solidity checks with local Anvil simulations; **no claim of discovered zero-days** |
 
 ## Toolkit
 
@@ -100,9 +108,22 @@ These are **open contributions, not merged claims**. Status can change; follow e
 
 **Especially interested in:** Flutter internals, accessibility, editor integrations, automated tests, Python APIs, CI reliability, and authorized security research.
 
+## Let's work together
+
+**Available for:** paid remote Flutter / Dart development, Android engineering, developer tooling, testing, Python APIs, Laravel backends, and focused contract projects. Based in **Egypt**.
+
+| Contact | Direct link |
+| :--- | :--- |
+| **Email** | [abdelrhmanmahrous386@gmail.com](mailto:abdelrhmanmahrous386@gmail.com) |
+| **Phone** | [+20 10 6747 5499](tel:+201067475499) |
+| **WhatsApp** | [Chat on WhatsApp](https://wa.me/201067475499) |
+| **Telegram** | [Chat by phone number](https://t.me/+201067475499) |
+| **LinkedIn** | [Professional profile](https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/) |
+
+<sub>Telegram's phone-based chat link depends on whether my account allows discovery by phone number. For a reliable first contact, please use email or WhatsApp.</sub>
+
 <div align="center">
   <hr />
   <p><strong>Less noise. More code. More reproducible evidence.</strong></p>
-  <p>Open to remote engineering opportunities and focused open-source collaboration.</p>
-  <p><a href="https://nemesisdevx.github.io/portfolio.html">Portfolio</a> · <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">Connect</a></p>
+  <p><a href="https://nemesisdevx.github.io/portfolio.html">Portfolio & case studies</a> · <a href="mailto:abdelrhmanmahrous386@gmail.com">Email me</a> · <a href="https://wa.me/201067475499">WhatsApp</a></p>
 </div>
