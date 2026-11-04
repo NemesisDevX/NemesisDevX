@@ -44,31 +44,18 @@
 
 ## Shipped software
 
-<table>
-<tr>
-<td width="68%" valign="top">
+### [Tasbehati / تسبيحاتي](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr)
 
-**[Tasbehati / تسبيحاتي](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr)**
+A **published Flutter Android application** for Quran reading, adhkar, tasbih, prayer times, and daily spiritual tools. Built and maintained with practical experience in production debugging, Firebase, mobile release engineering, and monetization.
 
-A released Flutter Android application for Quran reading, adhkar, tasbih, prayer times, and daily spiritual tools. Practical experience with mobile release engineering, Firebase integration, testing, and monetization.
+**Production evidence:** [Open Tasbehati on Google Play](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr) · Android production release · Source is private.
 
-**[View the production app on Google Play](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr)**
-
-<sub>Production app · private application source</sub>
-
-</td>
-<td width="32%" valign="top">
-
-**Delivery focus**
-
-- Mobile UX and performance
-- Release management
-- Regression testing
-- Production debugging
-
-</td>
-</tr>
-</table>
+| Engineering strengths | Real-world scope |
+| :--- | :--- |
+| **Mobile delivery** | Android app release and ongoing maintenance |
+| **Debugging & reliability** | Crash fixes, regression analysis, and UI behavior |
+| **Integrations** | Firebase, REST APIs, and mobile ads |
+| **Testing** | Focused regressions, release checks, and device validation |
 
 ## Work currently under upstream review
 
@@ -89,7 +76,6 @@ These are **open contributions, not merged claims**. Status can change; follow e
 
 | Project | Evidence and scope |
 | :--- | :--- |
-| **[Tasbehati — shipped Android app](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr)** | Production Flutter release; Android delivery, Firebase integration, debugging and release engineering |
 | **[VoiceOps Controller](https://github.com/NemesisDevX/VoiceOps-Controller)** | Python / FastAPI infrastructure control, human confirmation for actions and regression testing |
 | **[voxguard / PauseSignal](https://github.com/NemesisDevX/voxguard)** | Flutter voice-scam risk prototype with family alerts; **experimental, not a validated detector** · [Demo](https://nemesisdevx.github.io/voxguard/) |
 | **[Zero-Day AI Auditor](https://github.com/NemesisDevX/Zero-Day-AI-Auditor)** | Experimental Solidity checks with local Anvil simulations; **no claim of discovered zero-days** |
