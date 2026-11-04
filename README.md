@@ -32,8 +32,6 @@
 
 <sub>The Apple contribution was merged into an Apple-maintained open-source repository. This is not a claim of employment at or affiliation with Apple. AI assistance was disclosed on applicable contributions.</sub>
 
-Additional merged community-listing contribution: [CALLE-AI #600](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/600) (README resource entry, separate from the four engineering fixes).
-
 ## Shipped software
 
 <table>
