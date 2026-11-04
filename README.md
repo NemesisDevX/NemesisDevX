@@ -45,6 +45,19 @@
 
 <p><a href="https://nemesisdevx.github.io/portfolio.html"><strong>↗ Explore verified engineering case studies</strong></a> &nbsp; · &nbsp; <a href="mailto:abdelrhmanmahrous386@gmail.com?subject=Remote%20engineering%20opportunity">Discuss a paid remote role or contract</a></p>
 
+## Evidence-driven engineering: two case studies
+
+| What broke | Fix & validation | Public proof |
+| :--- | :--- | :--- |
+| **Flutter Web accessibility (merged):** enabling a previously disabled slider could leave incorrect initial screen-reader value/range attributes. | Corrected the Web semantics initialization path, added regression coverage, and incorporated reviewer feedback. Merged **4 Nov 2026**. | [Flutter #195564 — merged diff & reviews](https://github.com/flutter/flutter/pull/195564) |
+| **Dart-Code DTD shutdown (under review):** in-flight device events and asynchronous service handlers could attempt to send messages after extension disposal and cause unhandled rejections. | Reproduced the failure before the fix, tightened disposal and post-`await` guards, and tested shutdown races. **8/8 Flutter and 8/8 Dart focused tests passed locally**, CI bots passed, and Codecov **patch** coverage reached **95%** on `3329e02b`. | [Dart-Code #6349 — diff, CI & discussion](https://github.com/Dart-Code/Dart-Code/pull/6349) |
+
+*Status snapshot: 5 November 2026. The second contribution is **not merged**; its CI and coverage evidence do not substitute for an upstream approval. I distinguish shipped work, merged contributions, private client delivery, and in-review submissions.*
+
+**My workflow:** reproduce a real failure → write a focused regression → fix the smallest safe path → run tests and static checks → address technical review. This is also how I work on production Flutter apps and backend APIs.
+
+[**Explore the detailed case studies on my portfolio →**](https://nemesisdevx.github.io/portfolio.html#proof)
+
 ## Shipped software
 
 ### [Tasbehati / تسبيحاتي](https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr)
