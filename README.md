@@ -3,6 +3,7 @@
 
   <h2>Abdelrahman Darwish <sub>· NemesisDevX</sub></h2>
   <p><strong>Flutter Engine · Dart / Developer Tools · Android · Backend Engineering</strong></p>
+  <p>16 months of hands-on Flutter/Dart development since July 2025 · Published Android app · Paid client pilot</p>
   <p>Reproduce the bug. Understand the cause. Ship the fix. Prove it works.</p>
   <p>Verified merged work in <strong>Flutter Core</strong>, <strong>Apple Pkl</strong> and <strong>Dart-Code</strong> · Available for paid remote and contract engineering.</p>
 
