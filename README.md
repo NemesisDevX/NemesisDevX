@@ -6,7 +6,7 @@
   <p>Reproduce the bug. Understand the cause. Ship the fix. Prove it works.</p>
 
   <p>
-    <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/03-MERGED%20UPSTREAM%20PRs-cb254a?style=flat-square" alt="3 merged upstream pull requests" /></a>
+    <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/04-MERGED%20ENGINEERING%20PRs-cb254a?style=flat-square" alt="4 merged engineering upstream pull requests" /></a>
     <a href="https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr"><img src="https://img.shields.io/badge/ANDROID-APP%20SHIPPED-237e68?style=flat-square" alt="Android app shipped" /></a>
     <a href="https://github.com/NemesisDevX?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-TESTED%20ENGINEERING-454c62?style=flat-square" alt="Tested engineering" /></a>
   </p>
@@ -21,15 +21,18 @@
 
 ## Merged upstream
 
-**3 accepted contributions in established open-source projects.** Every link leads to the upstream code, reviews, and merge record — not to a fork-only claim.
+**4 merged engineering contributions in established open-source projects.** Every link leads to the upstream code, reviews, and merge record — not to a fork-only claim.
 
 | Project | Engineering contribution | Evidence |
 | :--- | :--- | :--- |
 | **Dart-Code** · Dart & Flutter for VS Code | Fixed hidden-directory handling in project / test discovery | [Merged PR #6301](https://github.com/Dart-Code/Dart-Code/pull/6301) |
 | **Dart-Code** · Developer tooling | Added 12 regression tests for Dart project creation and SDK/error paths | [Merged PR #6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
 | **Apple / pkl-neovim** · Language tooling | Fixed Pkl LSP configuration lookup; added a headless regression harness and CI | [Merged PR #75](https://github.com/apple/pkl-neovim/pull/75) |
+| **Flutter** · Web engine accessibility | Fixed initial slider semantics values when enabling; verified by Flutter maintainers | [Merged PR #195564](https://github.com/flutter/flutter/pull/195564) |
 
 <sub>The Apple contribution was merged into an Apple-maintained open-source repository. This is not a claim of employment at or affiliation with Apple. AI assistance was disclosed on applicable contributions.</sub>
+
+Additional merged community-listing contribution: [CALLE-AI #600](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/600) (README resource entry, separate from the four engineering fixes).
 
 ## Shipped software
 
@@ -66,13 +69,13 @@ These are **open contributions, not merged claims**. Status can change; follow e
 | Ecosystem | Work | Pull request |
 | :--- | :--- | :--- |
 | **Dart / tooling** | Repeated timeout recovery in <code>package:pool</code> · maintainer-approved | [dart-lang/tools #2763](https://github.com/dart-lang/tools/pull/2763) |
-| **Flutter Engine** | Web slider semantics initialization · human-reviewed | [flutter #195564](https://github.com/flutter/flutter/pull/195564) |
 | **Flutter Engine** | Reset stale web scroll offsets · human-reviewed | [flutter #195578](https://github.com/flutter/flutter/pull/195578) |
 | **Dart-Code** | Package command / pubspec watcher regression coverage · bot-approved with maintainer | [#6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
 | **Dart-Code** | Dart SDK discovery precedence tests | [#6337](https://github.com/Dart-Code/Dart-Code/pull/6337) |
 | **Flutter DevTools** | Responsive Network toolbar and status line | [#10057](https://github.com/flutter/devtools/pull/10057) |
 | **Flutter DevTools** | Conservative extension asset pruning | [#10063](https://github.com/flutter/devtools/pull/10063) |
 | **React Native** | Per-variant Gradle autolinking generation | [#59739](https://github.com/facebook/react-native/pull/59739) |
+| **Apple / Pkl** | Kotlin reflection in shaded fat JARs and sources JAR validation · Draft, awaiting upstream CI authorization | [#1961](https://github.com/apple/pkl/pull/1961) |
 
 ## Selected engineering projects
 
