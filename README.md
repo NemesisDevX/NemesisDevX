@@ -62,10 +62,12 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 
 ## Work currently under upstream review
 
-**6 open external PRs (including one draft) as of 4 November 2026.** These are submitted contributions, not merged claims; follow the live PRs for up-to-date review and CI status.
+**8 open external PRs (including one draft) as of 4 November 2026.** These are submitted contributions, not merged claims; follow the live PRs for up-to-date review and CI status.
 
 | Upstream project | Engineering work · current review status | PR |
 | :--- | :--- | :--- |
+| **Dart-Code / VS Code** | Prevent unhandled DTD event errors during extension disposal · GitHub Actions CI green; awaiting human review | [#6349](https://github.com/Dart-Code/Dart-Code/pull/6349) |
+| **dart-lang/tools / pub_semver** | Fix empty-constraint subtraction in `VersionUnion.difference` · local tests green; upstream test workflow awaits maintainer approval | [#2797](https://github.com/dart-lang/tools/pull/2797) |
 | **Flutter Core** | Fix stale scroll offsets affecting web accessibility hit testing · human-approved | [#195578](https://github.com/flutter/flutter/pull/195578) |
 | **dart-lang/tools** | Restore repeated timeouts in `package:pool` · human-approved | [#2763](https://github.com/dart-lang/tools/pull/2763) |
 | **Flutter DevTools** | Prevent Network toolbar and status-line overflow on narrow screens · reviewer feedback addressed, awaiting follow-up | [#10057](https://github.com/flutter/devtools/pull/10057) |
