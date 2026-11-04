@@ -1,9 +1,10 @@
 <div align="center">
   <img src="./assets/nemesis-banner.svg" width="100%" alt="NemesisDevX — Flutter, Dart, developer tooling and systems engineering" />
 
-  <h2>NemesisDevX <sub>/ independent software developer</sub></h2>
-  <p><strong>Flutter & Dart · Developer Tools · Backend Engineering · Automated Testing</strong></p>
+  <h2>Abdelrahman Darwish <sub>· NemesisDevX</sub></h2>
+  <p><strong>Flutter Engine · Dart / Developer Tools · Android · Backend Engineering</strong></p>
   <p>Reproduce the bug. Understand the cause. Ship the fix. Prove it works.</p>
+  <p>Verified merged work in <strong>Flutter Core</strong>, <strong>Apple Pkl</strong> and <strong>Dart-Code</strong> · Available for paid remote and contract engineering.</p>
 
   <p>
     <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/04-MERGED%20ENGINEERING%20PRs-cb254a?style=flat-square" alt="4 merged engineering upstream pull requests" /></a>
@@ -11,7 +12,7 @@
     <a href="https://github.com/NemesisDevX?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-TESTED%20ENGINEERING-454c62?style=flat-square" alt="Tested engineering" /></a>
   </p>
   <p>
-    <a href="https://nemesisdevx.github.io/">Portfolio</a> &nbsp; · &nbsp;
+    <a href="https://nemesisdevx.github.io/portfolio.html">Portfolio</a> &nbsp; · &nbsp;
     <a href="https://github.com/NemesisDevX?tab=repositories">Repositories</a> &nbsp; · &nbsp;
     <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">LinkedIn</a>
   </p>
@@ -21,16 +22,18 @@
 
 ## Merged upstream
 
-**4 merged engineering contributions in established open-source projects.** Every link leads to the upstream code, reviews, and merge record — not to a fork-only claim.
+**4 verified merged engineering PRs, ordered by technical scope and hiring relevance.** Each upstream link includes the review and merge record; no employer affiliation is implied.
 
-| Project | Engineering contribution | Evidence |
+| Ranked contribution | What changed | Verified upstream PR |
 | :--- | :--- | :--- |
-| **Dart-Code** · Dart & Flutter for VS Code | Fixed hidden-directory handling in project / test discovery | [Merged PR #6301](https://github.com/Dart-Code/Dart-Code/pull/6301) |
-| **Dart-Code** · Developer tooling | Added 12 regression tests for Dart project creation and SDK/error paths | [Merged PR #6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
-| **Apple / pkl-neovim** · Language tooling | Fixed Pkl LSP configuration lookup; added a headless regression harness and CI | [Merged PR #75](https://github.com/apple/pkl-neovim/pull/75) |
-| **Flutter** · Web engine accessibility | Fixed initial slider semantics values when enabling; verified by Flutter maintainers | [Merged PR #195564](https://github.com/flutter/flutter/pull/195564) |
+| **01 · Flutter Core / Web Engine** | Fixed initial ARIA/semantics values when sliders are enabled; **two human approvals** | [MERGED #195564](https://github.com/flutter/flutter/pull/195564) |
+| **02 · Apple / pkl-neovim** | Fixed nested Pkl LSP configuration in Neovim; added headless regression CI, reviewed and merged by the maintainer | [MERGED #75](https://github.com/apple/pkl-neovim/pull/75) |
+| **03 · Dart-Code / VS Code** | Fixed hidden ancestor directories affecting Dart project and test discovery | [MERGED #6301](https://github.com/Dart-Code/Dart-Code/pull/6301) |
+| **04 · Dart-Code / Testing** | Added regression coverage for `dart.createProject`, SDK selection and failure paths | [MERGED #6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
 
 <sub>The Apple contribution was merged into an Apple-maintained open-source repository. This is not a claim of employment at or affiliation with Apple. AI assistance was disclosed on applicable contributions.</sub>
+
+<p><a href="https://nemesisdevx.github.io/portfolio.html"><strong>↗ Explore the engineering portfolio with verified case studies</strong></a> &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">Discuss remote work or a paid contract</a></p>
 
 ## Shipped software
 
@@ -64,16 +67,16 @@ A released Flutter Android application for Quran reading, adhkar, tasbih, prayer
 
 These are **open contributions, not merged claims**. Status can change; follow each PR for the authoritative current review and CI state.
 
-| Ecosystem | Work | Pull request |
+| Upstream project | Engineering work · under review | PR |
 | :--- | :--- | :--- |
-| **Dart / tooling** | Repeated timeout recovery in <code>package:pool</code> · maintainer-approved | [dart-lang/tools #2763](https://github.com/dart-lang/tools/pull/2763) |
-| **Flutter Engine** | Reset stale web scroll offsets · human-reviewed | [flutter #195578](https://github.com/flutter/flutter/pull/195578) |
-| **Dart-Code** | Package command / pubspec watcher regression coverage · bot-approved with maintainer | [#6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
-| **Dart-Code** | Dart SDK discovery precedence tests | [#6337](https://github.com/Dart-Code/Dart-Code/pull/6337) |
-| **Flutter DevTools** | Responsive Network toolbar and status line | [#10057](https://github.com/flutter/devtools/pull/10057) |
-| **Flutter DevTools** | Conservative extension asset pruning | [#10063](https://github.com/flutter/devtools/pull/10063) |
-| **React Native** | Per-variant Gradle autolinking generation | [#59739](https://github.com/facebook/react-native/pull/59739) |
-| **Apple / Pkl** | Kotlin reflection in shaded fat JARs and sources JAR validation · Draft, awaiting upstream CI authorization | [#1961](https://github.com/apple/pkl/pull/1961) |
+| **Apple / Pkl** | Kotlin reflection in shaded fat JARs and source bundle integrity · **Draft**, awaiting official CI | [#1961](https://github.com/apple/pkl/pull/1961) |
+| **Flutter Core** | Correct stale scroll offsets in web accessibility tree · approved, internal CI needs resolution | [#195578](https://github.com/flutter/flutter/pull/195578) |
+| **dart-lang/tools** | Repeated timeout recovery for `package:pool` · human-approved | [#2763](https://github.com/dart-lang/tools/pull/2763) |
+| **Dart-Code** | Package command and pubspec regression coverage · approved with DanTup review | [#6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
+| **Dart-Code** | Dart SDK discovery precedence and isolation tests · latest CI passed | [#6337](https://github.com/Dart-Code/Dart-Code/pull/6337) |
+| **React Native** | Variant-aware Gradle autolinking · CLA synchronization unresolved | [#59739](https://github.com/facebook/react-native/pull/59739) |
+| **Flutter DevTools** | Narrow-screen Network toolbar and status line · reviewer feedback addressed | [#10057](https://github.com/flutter/devtools/pull/10057) |
+| **Flutter DevTools** | Pruning unused extension build assets · under upstream review | [#10063](https://github.com/flutter/devtools/pull/10063) |
 
 ## Selected engineering projects
 
@@ -101,5 +104,5 @@ These are **open contributions, not merged claims**. Status can change; follow e
   <hr />
   <p><strong>Less noise. More code. More reproducible evidence.</strong></p>
   <p>Open to remote engineering opportunities and focused open-source collaboration.</p>
-  <p><a href="https://nemesisdevx.github.io/">Portfolio</a> · <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">Connect</a></p>
+  <p><a href="https://nemesisdevx.github.io/portfolio.html">Portfolio</a> · <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">Connect</a></p>
 </div>
