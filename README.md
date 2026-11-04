@@ -5,10 +5,10 @@
   <p><strong>Flutter Engine · Dart / Developer Tools · Android · Backend Engineering</strong></p>
   <p>16 months of hands-on Flutter/Dart development since July 2025 · Published Android app · Paid client pilot</p>
   <p>Reproduce the bug. Understand the cause. Ship the fix. Prove it works.</p>
-  <p>Verified merged work in <strong>Flutter Core</strong>, <strong>Apple Pkl</strong> and <strong>Dart-Code</strong> · Available for paid remote and contract engineering.</p>
+  <p>Six verified upstream merges in <strong>Flutter Core</strong>, <strong>Apple Pkl</strong> and <strong>Dart-Code</strong> · Available for paid remote and contract engineering.</p>
 
   <p>
-    <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/04-MERGED%20ENGINEERING%20PRs-cb254a?style=flat-square" alt="4 merged engineering upstream pull requests" /></a>
+    <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/06-MERGED%20ENGINEERING%20PRs-cb254a?style=flat-square" alt="6 merged engineering upstream pull requests" /></a>
     <a href="https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr"><img src="https://img.shields.io/badge/ANDROID-APP%20SHIPPED-237e68?style=flat-square" alt="Android app shipped" /></a>
     <a href="https://github.com/NemesisDevX?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-TESTED%20ENGINEERING-454c62?style=flat-square" alt="Tested engineering" /></a>
   </p>
@@ -30,18 +30,20 @@
 
 ## Merged upstream
 
-**4 verified merged engineering PRs, ordered by technical scope and hiring relevance.** Each upstream link includes the review and merge record; no employer affiliation is implied.
+**6 verified merged upstream engineering PRs as of 4 November 2026.** Real bug fixes and regression tests accepted after upstream review. Every link points to the corresponding public code, discussion, and merge record; contributions do not imply employment by the projects or their parent organizations.
 
-| Ranked contribution | What changed | Verified upstream PR |
+| Contribution | Engineering impact | Merged upstream |
 | :--- | :--- | :--- |
-| **01 · Flutter Core / Web Engine** | Fixed initial ARIA/semantics values when sliders are enabled; **two human approvals** | [MERGED #195564](https://github.com/flutter/flutter/pull/195564) |
-| **02 · Apple / pkl-neovim** | Fixed nested Pkl LSP configuration in Neovim; added headless regression CI, reviewed and merged by the maintainer | [MERGED #75](https://github.com/apple/pkl-neovim/pull/75) |
-| **03 · Dart-Code / VS Code** | Fixed hidden ancestor directories affecting Dart project and test discovery | [MERGED #6301](https://github.com/Dart-Code/Dart-Code/pull/6301) |
-| **04 · Dart-Code / Testing** | Added regression coverage for `dart.createProject`, SDK selection and failure paths | [MERGED #6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
+| **Flutter Core / Web Engine** | Fixed initial accessibility value/range synchronization when a previously disabled slider becomes enabled; reviewer-validated regression coverage | [flutter/flutter #195564](https://github.com/flutter/flutter/pull/195564) |
+| **Dart-Code / VS Code** | Fixed hidden ancestor directories breaking Dart test filtering and `pubspec.yaml` handling | [Dart-Code #6301](https://github.com/Dart-Code/Dart-Code/pull/6301) |
+| **Dart-Code / SDK discovery** | Added SDK search-precedence tests, including Flutter, Fuchsia, PATH, and Bazel fallback; removed obsolete `DART_PATH_OVERRIDE` handling | [Dart-Code #6337](https://github.com/Dart-Code/Dart-Code/pull/6337) |
+| **Apple / pkl-neovim** | Corrected nested Pkl language-server settings and added a headless Neovim regression harness | [apple/pkl-neovim #75](https://github.com/apple/pkl-neovim/pull/75) |
+| **Dart-Code / Package testing** | Expanded automated coverage for package commands and `pubspec.yaml` update guards, with maintainer-requested test isolation | [Dart-Code #6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
+| **Dart-Code / Project creation** | Added 12 tests for `dart.createProject`, SDK configuration, cancellation and error paths | [Dart-Code #6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
 
-<sub>The Apple contribution was merged into an Apple-maintained open-source repository. This is not a claim of employment at or affiliation with Apple. AI assistance was disclosed on applicable contributions.</sub>
+<sub>The Apple contribution is to an Apple-maintained open-source repository, not a claim of employment or affiliation. AI assistance was disclosed where applicable, and links provide the independently reviewable engineering evidence.</sub>
 
-<p><a href="https://nemesisdevx.github.io/portfolio.html"><strong>↗ Explore the engineering portfolio with verified case studies</strong></a> &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">Discuss remote work or a paid contract</a></p>
+<p><a href="https://nemesisdevx.github.io/portfolio.html"><strong>↗ Explore verified engineering case studies</strong></a> &nbsp; · &nbsp; <a href="mailto:abdelrhmanmahrous386@gmail.com?subject=Remote%20engineering%20opportunity">Discuss a paid remote role or contract</a></p>
 
 ## Shipped software
 
@@ -60,23 +62,22 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 
 ## Work currently under upstream review
 
-These are **open contributions, not merged claims**. Status can change; follow each PR for the authoritative current review and CI state.
+**6 open external PRs (including one draft) as of 4 November 2026.** These are submitted contributions, not merged claims; follow the live PRs for up-to-date review and CI status.
 
-| Upstream project | Engineering work · under review | PR |
+| Upstream project | Engineering work · current review status | PR |
 | :--- | :--- | :--- |
-| **Apple / Pkl** | Kotlin reflection in shaded fat JARs and source bundle integrity · **Draft**, awaiting official CI | [#1961](https://github.com/apple/pkl/pull/1961) |
-| **Flutter Core** | Correct stale scroll offsets in web accessibility tree · approved, internal CI needs resolution | [#195578](https://github.com/flutter/flutter/pull/195578) |
-| **dart-lang/tools** | Repeated timeout recovery for `package:pool` · human-approved | [#2763](https://github.com/dart-lang/tools/pull/2763) |
-| **Dart-Code** | Package command and pubspec regression coverage · approved with DanTup review | [#6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
-| **Dart-Code** | Dart SDK discovery precedence and isolation tests · latest CI passed | [#6337](https://github.com/Dart-Code/Dart-Code/pull/6337) |
-| **React Native** | Variant-aware Gradle autolinking · CLA synchronization unresolved | [#59739](https://github.com/facebook/react-native/pull/59739) |
-| **Flutter DevTools** | Narrow-screen Network toolbar and status line · reviewer feedback addressed | [#10057](https://github.com/flutter/devtools/pull/10057) |
-| **Flutter DevTools** | Pruning unused extension build assets · under upstream review | [#10063](https://github.com/flutter/devtools/pull/10063) |
+| **Flutter Core** | Fix stale scroll offsets affecting web accessibility hit testing · human-approved | [#195578](https://github.com/flutter/flutter/pull/195578) |
+| **dart-lang/tools** | Restore repeated timeouts in `package:pool` · human-approved | [#2763](https://github.com/dart-lang/tools/pull/2763) |
+| **Flutter DevTools** | Prevent Network toolbar and status-line overflow on narrow screens · reviewer feedback addressed, awaiting follow-up | [#10057](https://github.com/flutter/devtools/pull/10057) |
+| **Flutter DevTools** | Safely prune unused web engine assets in extension builds · open | [#10063](https://github.com/flutter/devtools/pull/10063) |
+| **React Native** | Make Android autolinking PackageList generation variant-aware · open | [#59739](https://github.com/react/react-native/pull/59739) |
+| **Apple / Pkl** | Preserve Kotlin reflection in shaded fat JARs · draft | [#1961](https://github.com/apple/pkl/pull/1961) |
 
 ## Selected engineering projects
 
 | Project | Evidence and scope |
 | :--- | :--- |
+| **FamilyMove / family fitness (private client pilot)** | Flutter Android + Laravel backend, family accounts, push notifications, reporting and production-oriented QA; private client work, not a public release | 
 | **[VoiceOps Controller](https://github.com/NemesisDevX/VoiceOps-Controller)** | Python / FastAPI infrastructure control, human confirmation for actions and regression testing |
 | **[voxguard / PauseSignal](https://github.com/NemesisDevX/voxguard)** | Flutter voice-scam risk prototype with family alerts; **experimental, not a validated detector** · [Demo](https://nemesisdevx.github.io/voxguard/) |
 | **[Zero-Day AI Auditor](https://github.com/NemesisDevX/Zero-Day-AI-Auditor)** | Experimental Solidity checks with local Anvil simulations; **no claim of discovered zero-days** |
