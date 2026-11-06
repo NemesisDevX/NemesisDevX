@@ -2,13 +2,13 @@
   <img src="./assets/nemesis-banner.svg" width="100%" alt="NemesisDevX — Flutter, Dart, developer tooling and systems engineering" />
 
   <h2>Abdelrahman Darwish <sub>· NemesisDevX</sub></h2>
-  <p><strong>Flutter Engine · Dart / Developer Tools · Android · Backend Engineering</strong></p>
-  <p>16 months of hands-on Flutter/Dart development since July 2025 · Published Android app · Paid client pilot</p>
+  <p><strong>Flutter / Dart · VS Code Developer Tooling · Android · Backend Engineering</strong></p>
+  <p>Flutter/Dart development since July 2025 · Published Android app · Paid client pilot</p>
   <p>Reproduce the bug. Understand the cause. Ship the fix. Prove it works.</p>
-  <p>Six verified upstream merges in <strong>Flutter Core</strong>, <strong>Apple Pkl</strong> and <strong>Dart-Code</strong> · Available for paid remote and contract engineering.</p>
+  <p>Seven verified merged engineering contributions to <strong>Flutter</strong>, <strong>Dart-Code</strong> and <strong>Apple-maintained Pkl tooling</strong> · Open to paid remote junior and contract engineering.</p>
 
   <p>
-    <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/06-MERGED%20ENGINEERING%20PRs-cb254a?style=flat-square" alt="6 merged engineering upstream pull requests" /></a>
+    <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/07-MERGED%20ENGINEERING%20PRs-cb254a?style=flat-square" alt="7 merged engineering upstream pull requests" /></a>
     <a href="https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr"><img src="https://img.shields.io/badge/ANDROID-APP%20SHIPPED-237e68?style=flat-square" alt="Android app shipped" /></a>
     <a href="https://github.com/NemesisDevX?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-TESTED%20ENGINEERING-454c62?style=flat-square" alt="Tested engineering" /></a>
   </p>
@@ -30,7 +30,7 @@
 
 ## Merged upstream
 
-**6 verified merged upstream engineering PRs as of 4 November 2026.** Real bug fixes and regression tests accepted after upstream review. Every link points to the corresponding public code, discussion, and merge record; contributions do not imply employment by the projects or their parent organizations.
+**7 verified merged upstream engineering PRs as of 7 November 2026.** Real bug fixes and regression tests accepted after upstream review. Every link points to the corresponding public code, discussion, and merge record; contributions do not imply employment by the projects or their parent organizations.
 
 | Contribution | Engineering impact | Merged upstream |
 | :--- | :--- | :--- |
@@ -40,6 +40,7 @@
 | **Apple / pkl-neovim** | Corrected nested Pkl language-server settings and added a headless Neovim regression harness | [apple/pkl-neovim #75](https://github.com/apple/pkl-neovim/pull/75) |
 | **Dart-Code / Package testing** | Expanded automated coverage for package commands and `pubspec.yaml` update guards, with maintainer-requested test isolation | [Dart-Code #6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
 | **Dart-Code / Project creation** | Added 12 tests for `dart.createProject`, SDK configuration, cancellation and error paths | [Dart-Code #6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
+| **Dart-Code / DTD lifecycle** | Fixed async event and service callbacks that could run after VS Code extension disposal; added regression coverage and responded to maintainer review | [Dart-Code #6349](https://github.com/Dart-Code/Dart-Code/pull/6349) |
 
 <sub>The Apple contribution is to an Apple-maintained open-source repository, not a claim of employment or affiliation. AI assistance was disclosed where applicable, and links provide the independently reviewable engineering evidence.</sub>
 
@@ -51,9 +52,9 @@
 | :--- | :--- | :--- |
 | **Flutter Web accessibility (merged):** enabling a previously disabled slider could leave incorrect initial screen-reader value/range attributes. | Corrected the Web semantics initialization path, added regression coverage, and incorporated reviewer feedback. Merged **4 Nov 2026**. | [Flutter #195564 — merged diff & reviews](https://github.com/flutter/flutter/pull/195564) |
 | **Flutter Web scrolling semantics (human-approved; not merged):** after a scrollable list shrank, stale semantic DOM offsets made clicking the painted Row 4 activate Row 2. | Corrected stale offset handling and added regression checks. Reviewer `flutter-zl` independently verified the [before demo](https://flutter-demo-93-before.web.app) and [after demo](https://flutter-demo-93-after.web.app), then approved the PR. It is still open. | [Flutter #195578 — approval & diff](https://github.com/flutter/flutter/pull/195578) |
-| **Dart-Code DTD shutdown (under review):** in-flight device events and asynchronous service handlers could attempt to send messages after extension disposal and cause unhandled rejections. | Reproduced the failure before the fix, tightened disposal and post-`await` guards, and tested shutdown races. **8/8 Flutter and 8/8 Dart focused tests passed locally**, CI bots passed, and Codecov **patch** coverage reached **95%** on `3329e02b`. | [Dart-Code #6349 — diff, CI & discussion](https://github.com/Dart-Code/Dart-Code/pull/6349) |
+| **Dart-Code / DTD lifecycle (merged):** asynchronous device and service events could outlive VS Code extension disposal and trigger errors. | Added lifecycle guards and regression coverage for shutdown/disposal races, worked through maintainer reviews, and landed the fix on **5 Nov 2026**. | [Dart-Code #6349 — merged code & review](https://github.com/Dart-Code/Dart-Code/pull/6349) |
 
-*Status snapshot: 5 November 2026. The scrolling and DTD contributions are **not merged**; CI, patch coverage and human approval must not be confused with an upstream merge. I distinguish shipped work, merged contributions, private client delivery, and in-review submissions.*
+*Status snapshot: 7 November 2026. The scrolling fix #195578 is **approved but not merged**; the DTD lifecycle fix #6349 **is merged**. CI, draft status and human approval are not merge records. I distinguish shipped work, upstream merges, private client delivery and in-review submissions.*
 
 **My workflow:** reproduce a real failure → write a focused regression → fix the smallest safe path → run tests and static checks → address technical review. This is also how I work on production Flutter apps and backend APIs.
 
@@ -76,18 +77,23 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 
 ## Work currently under upstream review
 
-**8 open external PRs (including one draft) as of 4 November 2026.** These are submitted contributions, not merged claims; follow the live PRs for up-to-date review and CI status.
+**13 open external PRs, including four Drafts, as of 7 November 2026.** This is a dated snapshot, not a claim of approval or merging. [Check the live GitHub PRs](https://github.com/pulls?q=is%3Apr+author%3ANemesisDevX+is%3Aopen).
 
-| Upstream project | Engineering work · current review status | PR |
+| Upstream | Engineering change and review state | Evidence |
 | :--- | :--- | :--- |
-| **Dart-Code / VS Code** | Prevent unhandled DTD event errors during extension disposal · GitHub Actions CI green; awaiting human review | [#6349](https://github.com/Dart-Code/Dart-Code/pull/6349) |
-| **dart-lang/tools / pub_semver** | Fix empty-constraint subtraction in `VersionUnion.difference` · local tests green; upstream test workflow awaits maintainer approval | [#2797](https://github.com/dart-lang/tools/pull/2797) |
-| **Flutter Core** | Fix stale scroll offsets affecting web accessibility hit testing · human-approved | [#195578](https://github.com/flutter/flutter/pull/195578) |
-| **dart-lang/tools** | Restore repeated timeouts in `package:pool` · human-approved | [#2763](https://github.com/dart-lang/tools/pull/2763) |
-| **Flutter DevTools** | Prevent Network toolbar and status-line overflow on narrow screens · reviewer feedback addressed, awaiting follow-up | [#10057](https://github.com/flutter/devtools/pull/10057) |
-| **Flutter DevTools** | Safely prune unused web engine assets in extension builds · open | [#10063](https://github.com/flutter/devtools/pull/10063) |
-| **React Native** | Make Android autolinking PackageList generation variant-aware · open | [#59739](https://github.com/react/react-native/pull/59739) |
-| **Apple / Pkl** | Preserve Kotlin reflection in shaded fat JARs · draft | [#1961](https://github.com/apple/pkl/pull/1961) |
+| **Flutter / Web accessibility** | Fixed stale semantic scrolling offsets; **approved** by `flutter-zl`, internal Google tests rerunning | [flutter/flutter #195578](https://github.com/flutter/flutter/pull/195578) |
+| **Flutter / Sliver semantics** | Exclude pinned children pushed outside a group's visible region; awaiting human review | [flutter/flutter #196016](https://github.com/flutter/flutter/pull/196016) |
+| **Flutter / Native assets** | Repair macOS `otool` architecture parsing for paths with parentheses; **Draft** | [flutter/flutter #196060](https://github.com/flutter/flutter/pull/196060) |
+| **Flutter / Accessibility checks** | Detect unnamed link semantics nodes; **Draft**, awaiting design agreement | [flutter/flutter #196080](https://github.com/flutter/flutter/pull/196080) |
+| **Dart-Code / DTD requests** | Settle pending calls and guard sends when sockets close; **Ready for Review**, CI green | [Dart-Code #6367](https://github.com/Dart-Code/Dart-Code/pull/6367) |
+| **Dart-Code / DTD messages** | Log unobserved asynchronous message-handler failures; **Draft**, CI green | [Dart-Code #6372](https://github.com/Dart-Code/Dart-Code/pull/6372) |
+| **Dart packages / pool** | Restore repeated pending-request timeouts; **approved** by `sigurdm` | [dart-lang/tools #2763](https://github.com/dart-lang/tools/pull/2763) |
+| **Dart packages / pub_semver** | Safely subtract empty version constraints; awaiting human review | [dart-lang/tools #2797](https://github.com/dart-lang/tools/pull/2797) |
+| **Dart packages / mime** | Correct Ogg, binary glTF and PostScript signatures; **Draft**, focused tests passing | [dart-lang/tools #2802](https://github.com/dart-lang/tools/pull/2802) |
+| **Flutter DevTools / Layout** | Prevent Network toolbar overflow on small screens; feedback addressed, follow-up review pending | [flutter/devtools #10057](https://github.com/flutter/devtools/pull/10057) |
+| **Flutter DevTools / Build** | Prune unused engine assets in extension builds with regression tests; waiting on reviewers | [flutter/devtools #10063](https://github.com/flutter/devtools/pull/10063) |
+| **Apple Pkl / Packaging** | Preserve Kotlin reflection while shading fat JARs; awaiting human review | [apple/pkl #1961](https://github.com/apple/pkl/pull/1961) |
+| **React Native / Android Gradle** | Generate variant-specific PackageList classes; **CLA signed**, pending human review | [react/react-native #59739](https://github.com/react/react-native/pull/59739) |
 
 ## Selected engineering projects
 
