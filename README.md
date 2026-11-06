@@ -93,7 +93,7 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 | **Flutter DevTools / Layout** | Prevent Network toolbar overflow on small screens; feedback addressed, follow-up review pending | [flutter/devtools #10057](https://github.com/flutter/devtools/pull/10057) |
 | **Flutter DevTools / Build** | Prune unused engine assets in extension builds with regression tests; waiting on reviewers | [flutter/devtools #10063](https://github.com/flutter/devtools/pull/10063) |
 | **Apple Pkl / Packaging** | Preserve Kotlin reflection while shading fat JARs; awaiting human review | [apple/pkl #1961](https://github.com/apple/pkl/pull/1961) |
-| **React Native / Android Gradle** | Generate variant-specific PackageList classes; **Meta contributor CLA required** | [react/react-native #59739](https://github.com/react/react-native/pull/59739) |
+| **React Native / Android Gradle** | Generate variant-specific PackageList classes; **CLA signed**, pending human review | [react/react-native #59739](https://github.com/react/react-native/pull/59739) |
 
 ## Selected engineering projects
 
