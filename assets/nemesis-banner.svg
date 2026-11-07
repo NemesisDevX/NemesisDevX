@@ -1,35 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-<title id="title">NEMESIS / ENGINEERING — Code that holds up.</title>
-<desc id="desc">Black and crimson premium engineering banner for Abdelrahman Darwish, with N emblem, verified upstream merges and Flutter, Dart and tooling focus.</desc>
-<defs>
-<linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#09090e"/><stop offset=".58" stop-color="#160b12"/><stop offset="1" stop-color="#07080b"/></linearGradient>
-<radialGradient id="redglow"><stop offset="0" stop-color="#b72143" stop-opacity=".43"/><stop offset=".7" stop-color="#ad1937" stop-opacity=".08"/><stop offset="1" stop-color="#a71935" stop-opacity="0"/></radialGradient>
-<pattern id="mesh" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ff677f" stroke-width=".7" stroke-opacity=".12"/></pattern>
-<linearGradient id="slash" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8699"/><stop offset=".65" stop-color="#ff3151"/><stop offset="1" stop-color="#aa1431"/></linearGradient>
-</defs>
-<rect width="1200" height="320" rx="15" fill="url(#background)"/>
-<rect width="1200" height="320" rx="15" fill="url(#mesh)" opacity=".85"/>
-<ellipse cx="160" cy="157" rx="230" ry="210" fill="url(#redglow)"/>
-<path d="M24 27H1176M24 293H1176" stroke="#d44460" stroke-opacity=".54"/>
-<path d="M24 27V49M1176 27V49M24 293V271M1176 293V271" stroke="#ff3d5b" stroke-width="2"/>
-<circle cx="158" cy="158" r="110" fill="none" stroke="#f34d68" stroke-opacity=".25" stroke-dasharray="5 8"/>
-<circle cx="158" cy="158" r="91" fill="none" stroke="#e83c58" stroke-opacity=".42"/>
-<circle cx="158" cy="158" r="67" fill="#1d0d19" stroke="#fd4c67" stroke-opacity=".72"/>
-<path d="M120 196V118l76 78V118" fill="none" stroke="#7d1330" stroke-width="17" stroke-linecap="square" transform="translate(4 4)"/>
-<path d="M120 196V118l76 78V118" fill="none" stroke="url(#slash)" stroke-width="11" stroke-linecap="square"/>
-<circle cx="199" cy="114" r="5" fill="#fff0f3"/>
+<title id="title">NemesisDevX — Abdelrahman Darwish. Built to ship, proven in code.</title>
+<desc id="desc">Editorial black and crimson banner with the author's name, engineering tagline and eight verified upstream merges.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c0b0c"/><stop offset=".7" stop-color="#171013"/><stop offset="1" stop-color="#0c0b0c"/></linearGradient><radialGradient id="glow"><stop stop-color="#ed4b58" stop-opacity=".16"/><stop offset="1" stop-color="#ed4b58" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="320" fill="url(#bg)"/><ellipse cx="900" cy="190" rx="340" ry="280" fill="url(#glow)"/>
+<path d="M36 30H1164M36 289H1164" stroke="#5e4146" stroke-width="1"/>
 <g font-family="Arial,Helvetica,sans-serif">
-<text x="320" y="73" font-size="15" font-weight="700" letter-spacing="3.2" fill="#ff768f">INDEPENDENT SOFTWARE ENGINEERING  /  EGYPT</text>
-<text x="313" y="167" font-size="90" font-weight="900" letter-spacing="-5" fill="#f4edf0">NEMESIS<tspan fill="#ff3553">/</tspan></text>
-<text x="317" y="209" font-size="23" font-weight="700" letter-spacing="3.8" fill="#f0c4ce">CODE THAT HOLDS UP.</text>
-<text x="317" y="254" font-size="15" font-weight="700" letter-spacing="1.2" fill="#a88f9a">FLUTTER  •  DART  •  VS CODE TOOLING  •  SYSTEMS</text>
+<text x="55" y="76" font-size="14" font-weight="700" letter-spacing=".7" fill="#ed4b58">N /</text>
+<text x="96" y="76" font-size="13" font-weight="600" letter-spacing="2" fill="#c9b4b6">NEMESISDEVX — ENGINEERING PORTFOLIO</text>
+<text x="52" y="161" font-size="61" font-weight="700" letter-spacing="-2" fill="#f3efeb">Built to ship.</text>
+<text x="52" y="229" font-family="Georgia,serif" font-style="italic" font-size="62" fill="#ff7b85">Proven in code.</text>
+<text x="55" y="270" font-size="13" letter-spacing="1.1" fill="#a99599">ABDELRAHMAN DARWISH  /  FLUTTER · DART · DEVELOPER TOOLING</text>
 </g>
-<g font-family="Consolas,'Liberation Mono',monospace">
-<text x="1092" y="53" text-anchor="middle" font-size="11" fill="#ff8195" letter-spacing="1">● VERIFIED</text>
-<rect x="1011" y="68" width="151" height="169" rx="8" fill="#170b12" stroke="#c54a60" stroke-width="1.5"/>
-<text x="1087" y="148" text-anchor="middle" font-size="72" font-weight="700" letter-spacing="-6" fill="#ff3553">08</text>
-<path d="M1035 164H1138" stroke="#894256"/>
-<text x="1087" y="189" text-anchor="middle" font-size="12" fill="#f1bdc8" letter-spacing="1.1">UPSTREAM</text>
-<text x="1087" y="210" text-anchor="middle" font-size="12" fill="#f1bdc8" letter-spacing="1.1">MERGES</text>
-</g>
+<path d="M881 102H1135V255H881Z" fill="#181114" stroke="#68434b"/>
+<path d="M881 102H948" stroke="#ed4b58" stroke-width="2"/>
+<text x="906" y="126" font-size="11" font-family="monospace" fill="#bca3aa">MERGED UPSTREAM</text>
+<text x="898" y="217" font-size="99" font-weight="700" letter-spacing="-8" font-family="Arial,Helvetica,sans-serif" fill="#f3efeb">08</text>
+<text x="1087" y="235" text-anchor="middle" font-size="12" font-family="monospace" fill="#ed4b58">↗</text>
+<text x="900" y="244" font-size="10" font-family="monospace" fill="#bca3aa">VERIFIED / 2026</text>
 </svg>

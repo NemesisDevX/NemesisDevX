@@ -2,7 +2,7 @@
   <img src="./assets/nemesis-banner.svg" width="100%" alt="NemesisDevX — Flutter, Dart, developer tooling and systems engineering" />
 
   <h2>Abdelrahman Darwish <sub>· NemesisDevX</sub></h2>
-  <p><strong>NEMESIS / ENGINEERING</strong> — Code that holds up. <a href="https://nemesisdevx.github.io/">Launch the cinematic portfolio ↗</a></p>
+  <p><strong>Built to ship. Proven in code.</strong> — verified engineering from shipped applications to upstream developer tools. <a href="https://nemesisdevx.github.io/">Explore portfolio ↗</a></p>
   <p><strong>Flutter / Dart · VS Code Developer Tooling · Android · Backend Engineering</strong></p>
   <p>Flutter/Dart development since July 2025 · Published Android app · Paid client pilot</p>
   <p>Reproduce the bug. Understand the cause. Ship the fix. Prove it works.</p>
