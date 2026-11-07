@@ -14,7 +14,8 @@
     <a href="https://github.com/NemesisDevX?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-TESTED%20ENGINEERING-372130?style=flat-square" alt="Tested engineering" /></a>
   </p>
   <p>
-    <a href="https://nemesisdevx.github.io/">NEMESIS — cinematic portfolio</a> &nbsp; · &nbsp;
+    <a href="https://nemesisdevx.github.io/">NEMESIS — engineering portfolio</a> &nbsp; · &nbsp;
+    <a href="https://nemesisdevx.github.io/assets/Abdelrahman_Darwish_Engineering_CV_2026.pdf">Download updated 1-page CV (PDF)</a> &nbsp; · &nbsp;
     <a href="https://github.com/NemesisDevX?tab=repositories">Repositories</a> &nbsp; · &nbsp;
     <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">LinkedIn</a>
   </p>
@@ -141,5 +142,5 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 <div align="center">
   <hr />
   <p><strong>Less noise. More code. More reproducible evidence.</strong></p>
-  <p><a href="https://nemesisdevx.github.io/">NEMESIS / Engineering</a> · <a href="https://nemesisdevx.github.io/portfolio.html">Detailed case studies</a> · <a href="mailto:abdelrhmanmahrous386@gmail.com">Email me</a> · <a href="https://wa.me/201067475499">WhatsApp</a></p>
+  <p><a href="https://nemesisdevx.github.io/">NEMESIS / Engineering</a> · <a href="https://nemesisdevx.github.io/assets/Abdelrahman_Darwish_Engineering_CV_2026.pdf">Resume (PDF)</a> · <a href="https://nemesisdevx.github.io/portfolio.html">Detailed case studies</a> · <a href="mailto:abdelrhmanmahrous386@gmail.com">Email me</a> · <a href="https://wa.me/201067475499">WhatsApp</a></p>
 </div>
