@@ -2,7 +2,7 @@
   <img src="./assets/nemesis-banner.svg" width="100%" alt="NemesisDevX — Flutter, Dart, developer tooling and systems engineering" />
 
   <h2>Abdelrahman Darwish <sub>· NemesisDevX</sub></h2>
-  <p><strong>NEMESIS / ENGINEERING</strong> — code that holds up to review.</p>
+  <p><strong>NEMESIS / ENGINEERING</strong> — Code that holds up. <a href="https://nemesisdevx.github.io/">Launch the cinematic portfolio ↗</a></p>
   <p><strong>Flutter / Dart · VS Code Developer Tooling · Android · Backend Engineering</strong></p>
   <p>Flutter/Dart development since July 2025 · Published Android app · Paid client pilot</p>
   <p>Reproduce the bug. Understand the cause. Ship the fix. Prove it works.</p>
@@ -10,11 +10,11 @@
 
   <p>
     <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/08-MERGED%20ENGINEERING%20PRs-cb254a?style=flat-square" alt="8 merged engineering upstream pull requests" /></a>
-    <a href="https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr"><img src="https://img.shields.io/badge/ANDROID-APP%20SHIPPED-237e68?style=flat-square" alt="Android app shipped" /></a>
-    <a href="https://github.com/NemesisDevX?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-TESTED%20ENGINEERING-454c62?style=flat-square" alt="Tested engineering" /></a>
+    <a href="https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr"><img src="https://img.shields.io/badge/ANDROID-APP%20SHIPPED-8d233d?style=flat-square" alt="Android app shipped" /></a>
+    <a href="https://github.com/NemesisDevX?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-TESTED%20ENGINEERING-372130?style=flat-square" alt="Tested engineering" /></a>
   </p>
   <p>
-    <a href="https://nemesisdevx.github.io/">NEMESIS — flagship portfolio</a> &nbsp; · &nbsp;
+    <a href="https://nemesisdevx.github.io/">NEMESIS — cinematic portfolio</a> &nbsp; · &nbsp;
     <a href="https://github.com/NemesisDevX?tab=repositories">Repositories</a> &nbsp; · &nbsp;
     <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">LinkedIn</a>
   </p>
