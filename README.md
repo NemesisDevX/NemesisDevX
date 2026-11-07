@@ -2,18 +2,19 @@
   <img src="./assets/nemesis-banner.svg" width="100%" alt="NemesisDevX — Flutter, Dart, developer tooling and systems engineering" />
 
   <h2>Abdelrahman Darwish <sub>· NemesisDevX</sub></h2>
+  <p><strong>NEMESIS / ENGINEERING</strong> — code that holds up to review.</p>
   <p><strong>Flutter / Dart · VS Code Developer Tooling · Android · Backend Engineering</strong></p>
   <p>Flutter/Dart development since July 2025 · Published Android app · Paid client pilot</p>
   <p>Reproduce the bug. Understand the cause. Ship the fix. Prove it works.</p>
-  <p>Seven verified merged engineering contributions to <strong>Flutter</strong>, <strong>Dart-Code</strong> and <strong>Apple-maintained Pkl tooling</strong> · Open to paid remote junior and contract engineering.</p>
+  <p>Eight verified merged engineering contributions to <strong>Flutter</strong>, <strong>Dart-Code</strong> and <strong>Apple-maintained Pkl tooling</strong> · Open to paid remote junior and contract engineering.</p>
 
   <p>
-    <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/07-MERGED%20ENGINEERING%20PRs-cb254a?style=flat-square" alt="7 merged engineering upstream pull requests" /></a>
+    <a href="https://github.com/NemesisDevX/NemesisDevX#merged-upstream"><img src="https://img.shields.io/badge/08-MERGED%20ENGINEERING%20PRs-cb254a?style=flat-square" alt="8 merged engineering upstream pull requests" /></a>
     <a href="https://play.google.com/store/apps/details?id=com.tasbehati.ai.pr"><img src="https://img.shields.io/badge/ANDROID-APP%20SHIPPED-237e68?style=flat-square" alt="Android app shipped" /></a>
     <a href="https://github.com/NemesisDevX?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-TESTED%20ENGINEERING-454c62?style=flat-square" alt="Tested engineering" /></a>
   </p>
   <p>
-    <a href="https://nemesisdevx.github.io/portfolio.html">Engineering portfolio</a> &nbsp; · &nbsp;
+    <a href="https://nemesisdevx.github.io/">NEMESIS — flagship portfolio</a> &nbsp; · &nbsp;
     <a href="https://github.com/NemesisDevX?tab=repositories">Repositories</a> &nbsp; · &nbsp;
     <a href="https://www.linkedin.com/in/abdellrhman-darweish-0b6144433/">LinkedIn</a>
   </p>
@@ -30,7 +31,7 @@
 
 ## Merged upstream
 
-**7 verified merged upstream engineering PRs as of 7 November 2026.** Real bug fixes and regression tests accepted after upstream review. Every link points to the corresponding public code, discussion, and merge record; contributions do not imply employment by the projects or their parent organizations.
+**8 verified merged upstream engineering PRs as of 7 November 2026.** Real bug fixes and regression tests accepted after upstream review. Every link points to the corresponding public code, discussion, and merge record; contributions do not imply employment by the projects or their parent organizations.
 
 | Contribution | Engineering impact | Merged upstream |
 | :--- | :--- | :--- |
@@ -41,24 +42,26 @@
 | **Dart-Code / Package testing** | Expanded automated coverage for package commands and `pubspec.yaml` update guards, with maintainer-requested test isolation | [Dart-Code #6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
 | **Dart-Code / Project creation** | Added 12 tests for `dart.createProject`, SDK configuration, cancellation and error paths | [Dart-Code #6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
 | **Dart-Code / DTD lifecycle** | Fixed async event and service callbacks that could run after VS Code extension disposal; added regression coverage and responded to maintainer review | [Dart-Code #6349](https://github.com/Dart-Code/Dart-Code/pull/6349) |
+| **Dart-Code / CI performance** | Replaced unnecessary real Dart/Flutter process and network launches in command tests with deterministic stubs; focused Flutter test group improved ~24s to ~3s locally, with DanTup review and approval | [Dart-Code #6373](https://github.com/Dart-Code/Dart-Code/pull/6373) |
 
 <sub>The Apple contribution is to an Apple-maintained open-source repository, not a claim of employment or affiliation. AI assistance was disclosed where applicable, and links provide the independently reviewable engineering evidence.</sub>
 
-<p><a href="https://nemesisdevx.github.io/portfolio.html"><strong>↗ Explore verified engineering case studies</strong></a> &nbsp; · &nbsp; <a href="mailto:abdelrhmanmahrous386@gmail.com?subject=Remote%20engineering%20opportunity">Discuss a paid remote role or contract</a></p>
+<p><a href="https://nemesisdevx.github.io/"><strong>↗ Explore NEMESIS / Engineering</strong></a> &nbsp; · &nbsp; <a href="mailto:abdelrhmanmahrous386@gmail.com?subject=Remote%20engineering%20opportunity">Discuss a paid remote role or contract</a></p>
 
-## Evidence-driven engineering: three case studies
+## Evidence-driven engineering: four case studies
 
 | What broke | Fix & validation | Public proof |
 | :--- | :--- | :--- |
 | **Flutter Web accessibility (merged):** enabling a previously disabled slider could leave incorrect initial screen-reader value/range attributes. | Corrected the Web semantics initialization path, added regression coverage, and incorporated reviewer feedback. Merged **4 Nov 2026**. | [Flutter #195564 — merged diff & reviews](https://github.com/flutter/flutter/pull/195564) |
 | **Flutter Web scrolling semantics (human-approved; not merged):** after a scrollable list shrank, stale semantic DOM offsets made clicking the painted Row 4 activate Row 2. | Corrected stale offset handling and added regression checks. Reviewer `flutter-zl` independently verified the [before demo](https://flutter-demo-93-before.web.app) and [after demo](https://flutter-demo-93-after.web.app), then approved the PR. It is still open. | [Flutter #195578 — approval & diff](https://github.com/flutter/flutter/pull/195578) |
 | **Dart-Code / DTD lifecycle (merged):** asynchronous device and service events could outlive VS Code extension disposal and trigger errors. | Added lifecycle guards and regression coverage for shutdown/disposal races, worked through maintainer reviews, and landed the fix on **5 Nov 2026**. | [Dart-Code #6349 — merged code & review](https://github.com/Dart-Code/Dart-Code/pull/6349) |
+| **Dart-Code / CI reliability (merged):** tests spawned real Dart/Flutter tools and sometimes contacted the network simply to verify command invocation and output. | Replaced tool spawns with deterministic stubs, confirmed output assertions and tests; one focused Flutter group went from ~24s to ~3s locally. Maintainer DanTup approved the changes. Merged **7 Nov 2026**. | [Dart-Code #6373 — merged code and review](https://github.com/Dart-Code/Dart-Code/pull/6373) |
 
 *Status snapshot: 7 November 2026. The scrolling fix #195578 is **approved but not merged**; the DTD lifecycle fix #6349 **is merged**. CI, draft status and human approval are not merge records. I distinguish shipped work, upstream merges, private client delivery and in-review submissions.*
 
 **My workflow:** reproduce a real failure → write a focused regression → fix the smallest safe path → run tests and static checks → address technical review. This is also how I work on production Flutter apps and backend APIs.
 
-[**Explore the detailed case studies on my portfolio →**](https://nemesisdevx.github.io/portfolio.html#proof)
+[**Explore NEMESIS / Engineering →**](https://nemesisdevx.github.io/) · [Detailed case studies](https://nemesisdevx.github.io/portfolio.html#proof)
 
 ## Shipped software
 
@@ -77,7 +80,7 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 
 ## Work currently under upstream review
 
-**13 open external PRs, including four Drafts, as of 7 November 2026.** This is a dated snapshot, not a claim of approval or merging. [Check the live GitHub PRs](https://github.com/pulls?q=is%3Apr+author%3ANemesisDevX+is%3Aopen).
+**16 open external PRs, including Draft submissions, as of 7 November 2026.** This is a dated snapshot, not a claim of approval or merging. [Check the live GitHub PRs](https://github.com/pulls?q=is%3Apr+author%3ANemesisDevX+is%3Aopen).
 
 | Upstream | Engineering change and review state | Evidence |
 | :--- | :--- | :--- |
@@ -90,6 +93,9 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 | **Dart packages / pool** | Restore repeated pending-request timeouts; **approved** by `sigurdm` | [dart-lang/tools #2763](https://github.com/dart-lang/tools/pull/2763) |
 | **Dart packages / pub_semver** | Safely subtract empty version constraints; awaiting human review | [dart-lang/tools #2797](https://github.com/dart-lang/tools/pull/2797) |
 | **Dart packages / mime** | Correct Ogg, binary glTF and PostScript signatures; **Draft**, focused tests passing | [dart-lang/tools #2802](https://github.com/dart-lang/tools/pull/2802) |
+| **Dart packages / unified_analytics** | Add fallback root-tool resolution to child-process analytics environments; **Draft**, bot feedback addressed | [dart-lang/tools #2806](https://github.com/dart-lang/tools/pull/2806) |
+| **Dart packages / csslib strings** | Preserve escaped quote characters during CSS parsing and printing; **Draft** | [dart-lang/tools #2807](https://github.com/dart-lang/tools/pull/2807) |
+| **Dart packages / csslib recovery** | Avoid losing stylesheet rules after malformed Media Queries; **Draft**, does not yet support MQ4 ranges | [dart-lang/tools #2808](https://github.com/dart-lang/tools/pull/2808) |
 | **Flutter DevTools / Layout** | Prevent Network toolbar overflow on small screens; feedback addressed, follow-up review pending | [flutter/devtools #10057](https://github.com/flutter/devtools/pull/10057) |
 | **Flutter DevTools / Build** | Prune unused engine assets in extension builds with regression tests; waiting on reviewers | [flutter/devtools #10063](https://github.com/flutter/devtools/pull/10063) |
 | **Apple Pkl / Packaging** | Preserve Kotlin reflection while shading fat JARs; awaiting human review | [apple/pkl #1961](https://github.com/apple/pkl/pull/1961) |
@@ -135,5 +141,5 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 <div align="center">
   <hr />
   <p><strong>Less noise. More code. More reproducible evidence.</strong></p>
-  <p><a href="https://nemesisdevx.github.io/portfolio.html">Portfolio & case studies</a> · <a href="mailto:abdelrhmanmahrous386@gmail.com">Email me</a> · <a href="https://wa.me/201067475499">WhatsApp</a></p>
+  <p><a href="https://nemesisdevx.github.io/">NEMESIS / Engineering</a> · <a href="https://nemesisdevx.github.io/portfolio.html">Detailed case studies</a> · <a href="mailto:abdelrhmanmahrous386@gmail.com">Email me</a> · <a href="https://wa.me/201067475499">WhatsApp</a></p>
 </div>
