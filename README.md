@@ -78,28 +78,22 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 | **Integrations** | Firebase, REST APIs, and mobile ads |
 | **Testing** | Focused regressions, release checks, and device validation |
 
-## Work currently under upstream review
+## Focused upstream review queue
 
-**16 open external PRs, including Draft submissions, as of 7 November 2026.** This is a dated snapshot, not a claim of approval or merging. [Check the live GitHub PRs](https://github.com/pulls?q=is%3Apr+author%3ANemesisDevX+is%3Aopen).
+**16 external engineering PRs are open as of 8 November 2026.** This shortlist highlights the **eight most actionable**; eight others remain open on GitHub but are intentionally not featured until review-readiness or maintainer interest improves. **No closed or unmerged PR is counted as a merge.** [View all open PRs](https://github.com/pulls?q=is%3Apr+author%3ANemesisDevX+is%3Aopen).
 
-| Upstream | Engineering change and review state | Evidence |
+| Priority | Contribution | Actual review signal |
 | :--- | :--- | :--- |
-| **Flutter / Web accessibility** | Fixed stale semantic scrolling offsets; **approved** by `flutter-zl`, internal Google tests rerunning | [flutter/flutter #195578](https://github.com/flutter/flutter/pull/195578) |
-| **Flutter / Sliver semantics** | Exclude pinned children pushed outside a group's visible region; awaiting human review | [flutter/flutter #196016](https://github.com/flutter/flutter/pull/196016) |
-| **Flutter / Native assets** | Repair macOS `otool` architecture parsing for paths with parentheses; **Draft** | [flutter/flutter #196060](https://github.com/flutter/flutter/pull/196060) |
-| **Flutter / Accessibility checks** | Detect unnamed link semantics nodes; **Draft**, awaiting design agreement | [flutter/flutter #196080](https://github.com/flutter/flutter/pull/196080) |
-| **Dart-Code / DTD requests** | Settle pending calls and guard sends when sockets close; **Ready for Review**, CI green | [Dart-Code #6367](https://github.com/Dart-Code/Dart-Code/pull/6367) |
-| **Dart-Code / DTD messages** | Log unobserved asynchronous message-handler failures; **Draft**, CI green | [Dart-Code #6372](https://github.com/Dart-Code/Dart-Code/pull/6372) |
-| **Dart packages / pool** | Restore repeated pending-request timeouts; **approved** by `sigurdm` | [dart-lang/tools #2763](https://github.com/dart-lang/tools/pull/2763) |
-| **Dart packages / pub_semver** | Safely subtract empty version constraints; awaiting human review | [dart-lang/tools #2797](https://github.com/dart-lang/tools/pull/2797) |
-| **Dart packages / mime** | Correct Ogg, binary glTF and PostScript signatures; **Draft**, focused tests passing | [dart-lang/tools #2802](https://github.com/dart-lang/tools/pull/2802) |
-| **Dart packages / unified_analytics** | Add fallback root-tool resolution to child-process analytics environments; **Draft**, bot feedback addressed | [dart-lang/tools #2806](https://github.com/dart-lang/tools/pull/2806) |
-| **Dart packages / csslib strings** | Preserve escaped quote characters during CSS parsing and printing; **Draft** | [dart-lang/tools #2807](https://github.com/dart-lang/tools/pull/2807) |
-| **Dart packages / csslib recovery** | Avoid losing stylesheet rules after malformed Media Queries; **Draft**, does not yet support MQ4 ranges | [dart-lang/tools #2808](https://github.com/dart-lang/tools/pull/2808) |
-| **Flutter DevTools / Layout** | Prevent Network toolbar overflow on small screens; feedback addressed, follow-up review pending | [flutter/devtools #10057](https://github.com/flutter/devtools/pull/10057) |
-| **Flutter DevTools / Build** | Prune unused engine assets in extension builds with regression tests; waiting on reviewers | [flutter/devtools #10063](https://github.com/flutter/devtools/pull/10063) |
-| **Apple Pkl / Packaging** | Preserve Kotlin reflection while shading fat JARs; awaiting human review | [apple/pkl #1961](https://github.com/apple/pkl/pull/1961) |
-| **React Native / Android Gradle** | Generate variant-specific PackageList classes; **CLA signed**, pending human review | [react/react-native #59739](https://github.com/react/react-native/pull/59739) |
+| **01 · Human-approved** | [Flutter Web #195578](https://github.com/flutter/flutter/pull/195578) | Approved by `flutter-zl`; internal Google testing failure requires a maintainer to investigate. |
+| **02 · Human-approved** | [dart-lang/tools #2763](https://github.com/dart-lang/tools/pull/2763) | Approved by `sigurdm`; optional note about timer reset ordering. |
+| **03 · Final cleanup** | [Dart-Code #6367](https://github.com/Dart-Code/Dart-Code/pull/6367) | `DanTupBot` says two small cleanups remain before merge; **no human approval yet**. |
+| **04 · Review requested** | [Flutter DevTools #10057](https://github.com/flutter/devtools/pull/10057) | Reviewer requested; review feedback addressed, awaiting maintainer follow-up. |
+| **05 · Awaiting review** | [dart-lang/tools #2797](https://github.com/dart-lang/tools/pull/2797) | Open, not a draft; bot reviewed, no human approval. |
+| **06 · Awaiting review** | [Flutter #196016](https://github.com/flutter/flutter/pull/196016) | Open, not a draft; accessibility semantics fix, no human approval. |
+| **07 · Review requested** | [Flutter DevTools #10063](https://github.com/flutter/devtools/pull/10063) | Reviewer requested; size-pruning proposal without human approval. |
+| **08 · Blocked dependency** | [Dart-Code #6372](https://github.com/Dart-Code/Dart-Code/pull/6372) | Draft; wait for #6367 to merge, then rebase and request review. |
+
+The other eight open proposals are deferred from this **profile showcase**, not closed, withdrawn or deleted. Prioritize maintainer feedback over creating more draft PRs.
 
 ## Selected engineering projects
 
