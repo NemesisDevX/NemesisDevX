@@ -3,7 +3,7 @@
 
   <h1>Abdelrahman Darwish <sub>· NemesisDevX</sub></h1>
   <p><strong>Flutter / Dart · Developer Tooling · Backend Engineering</strong></p>
-  <p>Independent developer in Egypt. <strong>8 engineering PRs merged upstream</strong> into Flutter, Dart-Code and Apple-maintained Pkl tooling. One published Android app. Real code, regression tests and external reviews.</p>
+  <p>Independent developer in Egypt. <strong>9 engineering PRs merged upstream</strong> into Flutter, Dart-Code and Apple-maintained Pkl tooling. One published Android app. Real code, regression tests and external reviews.</p>
 
   <p>
     <a href="https://nemesisdevx.github.io/"><strong>PORTFOLIO ↗</strong></a> &nbsp;·&nbsp;
@@ -19,45 +19,47 @@
 
 ### Engineering highlights · Start here
 
-**01 — [Flutter Web accessibility](https://github.com/flutter/flutter/pull/195564)** · Corrected slider semantics when a disabled control becomes enabled. Regression-tested and merged into the Flutter engine.
+**01 — [Flutter Web accessibility](https://github.com/flutter/flutter/pull/195564)** · Corrected slider semantics when a disabled control becomes enabled. Regression-tested and merged into Flutter Web Engine.
 
-**02 — [Dart-Code DTD lifecycle](https://github.com/Dart-Code/Dart-Code/pull/6349)** · Fixed leaked subscriptions, callbacks after disposal and unhandled asynchronous errors. Merged after review and regression coverage.
+**02 — [Dart-Code DTD socket reliability](https://github.com/Dart-Code/Dart-Code/pull/6367)** · Settled hanging requests on disconnect/shutdown and guarded sends to non-open sockets, with verified regression tests. Merged by DanTup on 9 November 2026.
 
-**03 — [Dart-Code CI test performance](https://github.com/Dart-Code/Dart-Code/pull/6373)** · Removed unnecessary real Dart/Flutter process spawns; a focused Flutter test group improved from ~24s to ~3s locally. Reviewed and merged.
+**03 — [Dart-Code DTD lifecycle](https://github.com/Dart-Code/Dart-Code/pull/6349)** · Fixed async callbacks firing after extension disposal, with focused regression coverage.
 
-<sub>Priority order: engineering impact, technical depth, test evidence and relevance to software engineering roles — not merge date.</sub>
+<sub>Ranked by engineering impact and test evidence — not merge date. Upstream contributions are not employment with the maintainers.</sub>
 
 ---
 
 ## Merged upstream
 
-**8 verified merged upstream engineering PRs as of 7 November 2026 — ranked by engineering impact, not chronology.** Real bug fixes and regression tests accepted after upstream review. Every link points to the corresponding public code, discussion, and merge record; contributions do not imply employment by the projects or their parent organizations.
+**9 verified merged upstream engineering PRs as of 9 November 2026 — ranked by engineering impact, not chronology.** Real bug fixes and regression tests accepted after upstream review. Every link points to the corresponding public code, discussion, and merge record; contributions do not imply employment by the projects or their parent organizations.
 
 | Contribution (ranked) | Engineering impact | Merged upstream |
 | :--- | :--- | :--- |
 | **01 / Flutter Core / Web Engine** | Fixed initial accessibility value/range synchronization when a previously disabled slider becomes enabled; reviewer-validated regression coverage | [flutter/flutter #195564](https://github.com/flutter/flutter/pull/195564) |
-| **02 / Dart-Code / DTD lifecycle** | Fixed async event and service callbacks that could run after VS Code extension disposal; added regression coverage and responded to maintainer review | [Dart-Code #6349](https://github.com/Dart-Code/Dart-Code/pull/6349) |
-| **03 / Dart-Code / CI performance** | Replaced unnecessary real Dart/Flutter process and network launches in command tests with deterministic stubs; focused Flutter test group improved ~24s to ~3s locally, with DanTup review and approval | [Dart-Code #6373](https://github.com/Dart-Code/Dart-Code/pull/6373) |
-| **04 / Dart-Code / VS Code** | Fixed hidden ancestor directories breaking Dart test filtering and `pubspec.yaml` handling | [Dart-Code #6301](https://github.com/Dart-Code/Dart-Code/pull/6301) |
-| **05 / Apple / pkl-neovim** | Corrected nested Pkl language-server settings and added a headless Neovim regression harness | [apple/pkl-neovim #75](https://github.com/apple/pkl-neovim/pull/75) |
-| **06 / Dart-Code / SDK discovery** | Added SDK search-precedence tests, including Flutter, Fuchsia, PATH, and Bazel fallback; removed obsolete `DART_PATH_OVERRIDE` handling | [Dart-Code #6337](https://github.com/Dart-Code/Dart-Code/pull/6337) |
-| **07 / Dart-Code / Package testing** | Expanded automated coverage for package commands and `pubspec.yaml` update guards, with maintainer-requested test isolation | [Dart-Code #6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
-| **08 / Dart-Code / Project creation** | Added 12 tests for `dart.createProject`, SDK configuration, cancellation and error paths | [Dart-Code #6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
+| **02 / Dart-Code / DTD WebSocket reliability** | Settled pending requests on connection loss or shutdown; guarded writes to non-open sockets; added regressions for disconnect, disposal, and CONNECTING state | [Dart-Code #6367](https://github.com/Dart-Code/Dart-Code/pull/6367) |
+| **03 / Dart-Code / DTD lifecycle** | Fixed async event and service callbacks that could run after VS Code extension disposal; added regression coverage and responded to maintainer review | [Dart-Code #6349](https://github.com/Dart-Code/Dart-Code/pull/6349) |
+| **04 / Dart-Code / CI performance** | Replaced unnecessary real Dart/Flutter process and network launches in command tests with deterministic stubs; focused Flutter test group improved ~24s to ~3s locally, with DanTup review and approval | [Dart-Code #6373](https://github.com/Dart-Code/Dart-Code/pull/6373) |
+| **05 / Dart-Code / VS Code** | Fixed hidden ancestor directories breaking Dart test filtering and `pubspec.yaml` handling | [Dart-Code #6301](https://github.com/Dart-Code/Dart-Code/pull/6301) |
+| **06 / Apple / pkl-neovim** | Corrected nested Pkl language-server settings and added a headless Neovim regression harness | [apple/pkl-neovim #75](https://github.com/apple/pkl-neovim/pull/75) |
+| **07 / Dart-Code / SDK discovery** | Added SDK search-precedence tests, including Flutter, Fuchsia, PATH, and Bazel fallback; removed obsolete `DART_PATH_OVERRIDE` handling | [Dart-Code #6337](https://github.com/Dart-Code/Dart-Code/pull/6337) |
+| **08 / Dart-Code / Package testing** | Expanded automated coverage for package commands and `pubspec.yaml` update guards, with maintainer-requested test isolation | [Dart-Code #6332](https://github.com/Dart-Code/Dart-Code/pull/6332) |
+| **09 / Dart-Code / Project creation** | Added 12 tests for `dart.createProject`, SDK configuration, cancellation and error paths | [Dart-Code #6324](https://github.com/Dart-Code/Dart-Code/pull/6324) |
 
 <sub>The Apple contribution is to an Apple-maintained open-source repository, not a claim of employment or affiliation. AI assistance was disclosed where applicable, and links provide the independently reviewable engineering evidence.</sub>
 
 <p><a href="https://nemesisdevx.github.io/"><strong>↗ Explore NEMESIS / Engineering</strong></a> &nbsp; · &nbsp; <a href="mailto:abdelrhmanmahrous386@gmail.com?subject=Remote%20engineering%20opportunity">Discuss a paid remote role or contract</a></p>
 
-## Engineering case studies — three merged, one human-approved
+## Engineering case studies — four merged, one human-approved
 
 | What broke | Fix & validation | Public proof |
 | :--- | :--- | :--- |
 | **Flutter Web accessibility (merged):** enabling a previously disabled slider could leave incorrect initial screen-reader value/range attributes. | Corrected the Web semantics initialization path, added regression coverage, and incorporated reviewer feedback. Merged **4 Nov 2026**. | [Flutter #195564 — merged diff & reviews](https://github.com/flutter/flutter/pull/195564) |
+| **Dart-Code / DTD WebSocket reliability (merged):** pending calls could hang after socket closure, and sends could target non-OPEN sockets. | Settled abandoned requests; guarded socket state; covered CONNECTING, unexpected disconnect and shutdown with regressions. Merged by DanTup **9 Nov 2026**. | [Dart-Code #6367 — merged implementation](https://github.com/Dart-Code/Dart-Code/pull/6367) |
 | **Dart-Code / DTD lifecycle (merged):** asynchronous device and service events could outlive VS Code extension disposal and trigger errors. | Added lifecycle guards and regression coverage for shutdown/disposal races, worked through maintainer reviews, and landed the fix on **5 Nov 2026**. | [Dart-Code #6349 — merged code & review](https://github.com/Dart-Code/Dart-Code/pull/6349) |
 | **Dart-Code / CI reliability (merged):** tests spawned real Dart/Flutter tools and sometimes contacted the network simply to verify command invocation and output. | Replaced tool spawns with deterministic stubs, confirmed output assertions and tests; one focused Flutter group went from ~24s to ~3s locally. Maintainer DanTup approved the changes. Merged **7 Nov 2026**. | [Dart-Code #6373 — merged code and review](https://github.com/Dart-Code/Dart-Code/pull/6373) |
 | **Flutter Web scrolling semantics (human-approved; not merged):** after a scrollable list shrank, stale semantic DOM offsets made clicking the painted Row 4 activate Row 2. | Corrected stale offset handling and added regression checks. Reviewer `flutter-zl` independently verified the [before demo](https://flutter-demo-93-before.web.app) and [after demo](https://flutter-demo-93-after.web.app), then approved the PR. It is still open. | [Flutter #195578 — approval & diff](https://github.com/flutter/flutter/pull/195578) |
 
-*Status snapshot: 7 November 2026. The scrolling fix #195578 is **approved but not merged**; the DTD lifecycle fix #6349 **is merged**. CI, draft status and human approval are not merge records. I distinguish shipped work, upstream merges, private client delivery and in-review submissions.*
+*Status snapshot: 9 November 2026. The scrolling fix #195578 is **approved but not merged**; the DTD socket fix #6367 and lifecycle fix #6349 **are merged**. CI, draft status and human approval are not merge records. I distinguish shipped work, upstream merges, private client delivery and in-review submissions.*
 
 **My workflow:** reproduce a real failure → write a focused regression → fix the smallest safe path → run tests and static checks → address technical review. This is also how I work on production Flutter apps and backend APIs.
 
@@ -80,20 +82,20 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 
 ## Focused upstream review queue
 
-**16 external engineering PRs are open as of 8 November 2026.** This shortlist highlights the **eight most actionable**; eight others remain open on GitHub but are intentionally not featured until review-readiness or maintainer interest improves. **No closed or unmerged PR is counted as a merge.** [View all open PRs](https://github.com/pulls?q=is%3Apr+author%3ANemesisDevX+is%3Aopen).
+**16 external engineering PRs remain open as of 9 November 2026.** This shortlist highlights eight submissions that deserve focus. The rest remain open on GitHub, but are not featured as merged work. [View all open PRs](https://github.com/pulls?q=is%3Apr+author%3ANemesisDevX+is%3Aopen).
 
-| Priority | Contribution | Actual review signal |
+| Priority | Contribution | Current review signal |
 | :--- | :--- | :--- |
-| **01 · Human-approved** | [Flutter Web #195578](https://github.com/flutter/flutter/pull/195578) | Approved by `flutter-zl`; internal Google testing failure requires a maintainer to investigate. |
-| **02 · Human-approved** | [dart-lang/tools #2763](https://github.com/dart-lang/tools/pull/2763) | Approved by `sigurdm`; optional note about timer reset ordering. |
-| **03 · Final cleanup** | [Dart-Code #6367](https://github.com/Dart-Code/Dart-Code/pull/6367) | `DanTupBot` says two small cleanups remain before merge; **no human approval yet**. |
-| **04 · Review requested** | [Flutter DevTools #10057](https://github.com/flutter/devtools/pull/10057) | Reviewer requested; review feedback addressed, awaiting maintainer follow-up. |
-| **05 · Awaiting review** | [dart-lang/tools #2797](https://github.com/dart-lang/tools/pull/2797) | Open, not a draft; bot reviewed, no human approval. |
-| **06 · Awaiting review** | [Flutter #196016](https://github.com/flutter/flutter/pull/196016) | Open, not a draft; accessibility semantics fix, no human approval. |
-| **07 · Review requested** | [Flutter DevTools #10063](https://github.com/flutter/devtools/pull/10063) | Reviewer requested; size-pruning proposal without human approval. |
-| **08 · Blocked dependency** | [Dart-Code #6372](https://github.com/Dart-Code/Dart-Code/pull/6372) | Draft; wait for #6367 to merge, then rebase and request review. |
+| **01 · Human-approved** | [Flutter #195578](https://github.com/flutter/flutter/pull/195578) | Approved by `flutter-zl`; Google-internal testing needs maintainer investigation. |
+| **02 · Human-approved** | [dart-lang/tools #2763](https://github.com/dart-lang/tools/pull/2763) | Approved by `sigurdm`; public CI has no failure. |
+| **03 · CI green** | [Dart-Code #6388](https://github.com/Dart-Code/Dart-Code/pull/6388) | Test Explorer dynamic-node matching; awaiting human review. |
+| **04 · Review requested** | [Flutter DevTools #10057](https://github.com/flutter/devtools/pull/10057) | Previous `CHANGES_REQUESTED` comments addressed; awaiting re-review. |
+| **05 · Ready for review** | [dart-lang/tools #2802](https://github.com/dart-lang/tools/pull/2802) | MIME signatures; non-Draft; maintainer-gated CI requires approval. |
+| **06 · Awaiting review** | [dart-lang/tools #2797](https://github.com/dart-lang/tools/pull/2797) | Non-Draft; no human approval yet. |
+| **07 · Awaiting review** | [Flutter #196016](https://github.com/flutter/flutter/pull/196016) | Accessibility semantics fix; no human approval. |
+| **08 · Dependency merged** | [Dart-Code #6372](https://github.com/Dart-Code/Dart-Code/pull/6372) | Draft; #6367 merged, so now rebase onto upstream, retest and request review when ready. |
 
-The other eight open proposals are deferred from this **profile showcase**, not closed, withdrawn or deleted. Prioritize maintainer feedback over creating more draft PRs.
+Other open proposals are deferred from the profile shortlist, not closed or deleted. Upstream maintainers control merges; approvals and passing CI are not merges.
 
 ## Selected engineering projects
 
