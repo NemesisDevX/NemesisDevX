@@ -63,7 +63,7 @@
 | **Dart-Code Test Explorer (merged):** runtime groups could nest under unrelated outline groups in VS Code's Test Explorer. | Matched dynamic nodes by kind and full name, kept exact siblings independent, and added regressions. Merged **10 Nov 2026** after review. | [Dart-Code #6388 — merged diff](https://github.com/Dart-Code/Dart-Code/pull/6388) |
 | **Flutter Web scrolling semantics (human-approved; not merged):** after a scrollable list shrank, stale semantic DOM offsets made clicking the painted Row 4 activate Row 2. | Corrected stale offset handling and added regression checks. Reviewer `flutter-zl` independently verified the [before demo](https://flutter-demo-93-before.web.app) and [after demo](https://flutter-demo-93-after.web.app), then approved the PR. It is still open. | [Flutter #195578 — approval & diff](https://github.com/flutter/flutter/pull/195578) |
 
-*Status snapshot: 11 November 2026. Flutter #195578 is **approved but not merged**. Dart-Code #6388, #6367 and #6349 **are merged**. Dart-Code #6372 was closed **without a merge** after maintainers confirmed existing fixes covered its real failure paths. CI and approvals are not merges; private client work is not a public release.*
+*Status snapshot: 11 November 2026. Flutter #195578 is **approved but not merged**. Dart-Code #6388, #6367 and #6349 **are merged**. Only independently verified upstream merges are counted; CI results, approvals and private client work are tracked separately.*
 
 **My workflow:** reproduce a real failure → write a focused regression → fix the smallest safe path → run tests and static checks → address technical review. This is also how I work on production Flutter apps and backend APIs.
 
@@ -98,8 +98,6 @@ A **published Flutter Android application** for Quran reading, adhkar, tasbih, p
 | **06 · Review in progress** | [dart-lang/tools #2807](https://github.com/dart-lang/tools/pull/2807) | CSS escaped quotes; not merged. |
 | **07 · Review in progress** | [dart-lang/tools #2808](https://github.com/dart-lang/tools/pull/2808) | CSS media query recovery; not merged. |
 | **08 · Awaiting re-review** | [Flutter DevTools #10057](https://github.com/flutter/devtools/pull/10057) | Feedback addressed; no confirmed final human acceptance. |
-
-Dart-Code [#6372](https://github.com/Dart-Code/Dart-Code/pull/6372) was closed without merging after maintainers determined #6349 and #6367 already covered its real failure paths; it is **not** a new upstream merge.
 
 Other open proposals are deferred from the shortlist, not closed or deleted. Upstream maintainers control merges; approvals and passing CI are not merges.
 
