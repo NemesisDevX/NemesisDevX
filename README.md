@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://nemesisdevx.github.io/"><img src="./assets/nemesis-banner.svg" width="100%" alt="NEMESIS / Engineering — Abdelrahman Darwish" /></a>
+  <a href="https://nemesisdevx.github.io/"><img src="./assets/nemesis-banner-v10.svg" width="100%" alt="NEMESIS / Engineering — Abdelrahman Darwish — 10 verified upstream merges" /></a>
 
   <h1>Abdelrahman Darwish <sub>· NemesisDevX</sub></h1>
   <p><strong>Flutter / Dart · Developer Tooling · Backend Engineering</strong></p>
