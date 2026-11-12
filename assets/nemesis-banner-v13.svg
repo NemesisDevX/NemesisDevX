@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">NemesisDevX — Abdelrahman Darwish — Built to ship. Proven in code.</title>
+  <desc id="desc">Engineering portfolio banner: 13 verified upstream engineering merges across Flutter, Flutter DevTools, Dart-Code, Dart tooling and Apple-maintained Pkl Neovim, plus one published Android app.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2=".85">
+      <stop stop-color="#090b10"/>
+      <stop offset=".54" stop-color="#131015"/>
+      <stop offset="1" stop-color="#07080e"/>
+    </linearGradient>
+    <linearGradient id="coral" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff455d"/>
+      <stop offset=".55" stop-color="#ff8794"/>
+      <stop offset="1" stop-color="#ec3d56"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#241922"/>
+      <stop offset=".52" stop-color="#151016"/>
+      <stop offset="1" stop-color="#0d0e14"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff5365" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#ff5365" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#ea304d" stop-opacity=".24"/>
+      <stop offset=".58" stop-color="#af1934" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#af1934" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#9f5b68" stroke-opacity=".11" stroke-width=".7"/>
+    </pattern>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#fd5970" fill-opacity=".30"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" fill="url(#background)"/>
+  <rect x="675" y="0" width="525" height="320" fill="url(#grid)" opacity=".57"/>
+  <ellipse cx="1030" cy="152" rx="270" ry="215" fill="url(#glow)"/>
+  <ellipse cx="935" cy="265" rx="200" ry="42" fill="#d52b48" opacity=".20" filter="url(#soft)"/>
+  <path d="M718 -30L1000 -30L793 320L616 320Z" fill="#421924" opacity=".14"/>
+  <path d="M798 -5L1061 -5L877 316" fill="none" stroke="#ff5870" stroke-opacity=".18"/>
+  <path d="M668 320L865 0" stroke="#ff5267" stroke-opacity=".15"/>
+  <rect x="0.5" y=".5" width="1199" height="319" rx="0" fill="none" stroke="#74424d" stroke-opacity=".48"/>
+  <path d="M38 24H1162M38 294H1162" stroke="#79515b" stroke-opacity=".45"/>
+  <path d="M38 24H370M38 294H417" stroke="url(#line)" stroke-width="2"/>
+  <rect x="52" y="39" width="39" height="39" rx="8" fill="#2c111a" stroke="#e84258" stroke-opacity=".7"/>
+  <path d="M64 65L71 51L77 65L84 51" fill="none" stroke="#ff546e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="105" y="63" fill="#f3ebed" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="19" letter-spacing="2.1">NEMESISDEVX</text>
+  <text x="105" y="78" fill="#b599a1" font-family="Arial,Helvetica,sans-serif" font-size="9.8" letter-spacing="2.3">ENGINEERING / PUBLIC PROOF</text>
+  <path d="M105 91H622" stroke="#ff546e" stroke-opacity=".4"/>
+  <text x="54" y="154" fill="#f9f4f4" font-family="Arial,Helvetica,sans-serif" font-size="64" font-weight="800" letter-spacing="-2">Built to ship.</text>
+  <text x="54" y="220" fill="url(#coral)" font-family="Georgia,'Times New Roman',serif" font-size="66" font-style="italic" font-weight="700" letter-spacing="-1">Proven in code.</text>
+  <text x="56" y="254" fill="#cbbdc0" font-family="Arial,Helvetica,sans-serif" font-size="14.4" letter-spacing="1.05">ABDELRAHMAN DARWISH</text>
+  <text x="270" y="254" fill="#ff566c" font-family="Arial,Helvetica,sans-serif" font-size="14">/</text>
+  <text x="289" y="254" fill="#a99fa5" font-family="Arial,Helvetica,sans-serif" font-size="13.2" letter-spacing=".7">FLUTTER · DART · BACKEND · TOOLING</text>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" letter-spacing=".6">
+    <rect x="55" y="269" width="186" height="27" rx="6" fill="#23141b" stroke="#6e3545"/>
+    <circle cx="69" cy="283" r="4" fill="#fa566b"/>
+    <text x="81" y="287" fill="#e5d5d9">ANDROID APP SHIPPED</text>
+    <rect x="251" y="269" width="150" height="27" rx="6" fill="#1d151b" stroke="#5a3944"/>
+    <circle cx="265" cy="283" r="4" fill="#fa566b"/>
+    <text x="277" y="287" fill="#e5d5d9">REGRESSION TESTED</text>
+    <rect x="411" y="269" width="185" height="27" rx="6" fill="#1b151c" stroke="#593742"/>
+    <circle cx="425" cy="283" r="4" fill="#fa566b"/>
+    <text x="437" y="287" fill="#e5d5d9">REMOTE / EGYPT</text>
+  </g>
+  <g opacity=".6">
+    <rect x="719" y="60" width="107" height="172" rx="8" fill="#141118" stroke="#653b49"/>
+    <rect x="737" y="84" width="47" height="3" rx="1.5" fill="#f55e76"/>
+    <rect x="737" y="99" width="69" height="3" rx="1.5" fill="#736a75"/>
+    <rect x="737" y="113" width="54" height="3" rx="1.5" fill="#916a77"/>
+    <rect x="748" y="129" width="56" height="3" rx="1.5" fill="#736a75"/>
+    <rect x="748" y="143" width="37" height="3" rx="1.5" fill="#f55e76"/>
+    <rect x="737" y="160" width="65" height="3" rx="1.5" fill="#736a75"/>
+    <rect x="737" y="176" width="46" height="3" rx="1.5" fill="#916a77"/>
+    <rect x="737" y="194" width="60" height="3" rx="1.5" fill="#736a75"/>
+    <path d="M824 98L852 83M824 164L852 178M824 216L852 216" stroke="#fa6477" stroke-opacity=".45"/>
+  </g>
+  <rect x="846" y="37" width="305" height="244" rx="14" fill="#08070b" opacity=".55" filter="url(#soft)"/>
+  <rect x="843" y="34" width="305" height="244" rx="14" fill="url(#panel)" stroke="#974155" stroke-width="1.4"/>
+  <path d="M861 35H1130" stroke="url(#line)" stroke-width="2"/>
+  <rect x="863" y="55" width="8" height="8" rx="2" fill="#f05268"/>
+  <text x="883" y="63" fill="#e8d8dc" font-family="Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" letter-spacing="1.4">MERGED UPSTREAM</text>
+  <text x="883" y="84" fill="#a9979f" font-family="Arial,Helvetica,sans-serif" font-size="11.3" letter-spacing="1.2">FLUTTER · DEVTOOLS · DART · PKL</text>
+  <text x="867" y="200" fill="#fff9f8" font-family="Arial,Helvetica,sans-serif" font-size="126" font-weight="800" letter-spacing="-10">13</text>
+  <path d="M1030 177L1046 191L1076 157" fill="none" stroke="#ff536d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M866 212H1123" stroke="#77414e" stroke-opacity=".7"/>
+  <text x="867" y="237" fill="#f77688" font-family="Arial,Helvetica,sans-serif" font-size="12.8" font-weight="700" letter-spacing="1.7">13 VERIFIED MERGES</text>
+  <text x="867" y="257" fill="#aa9aa0" font-family="Arial,Helvetica,sans-serif" font-size="10.5" letter-spacing=".7">REAL CODE · REVIEWED · MERGED</text>
+  <rect x="1160" y="50" width="8" height="8" rx="2" fill="#f8536b" opacity=".55"/>
+  <rect x="1174" y="50" width="8" height="8" rx="2" fill="#f8536b" opacity=".27"/>
+  <rect x="1160" y="64" width="8" height="8" rx="2" fill="#f8536b" opacity=".27"/>
+  <rect x="1174" y="64" width="8" height="8" rx="2" fill="#f8536b" opacity=".17"/>
+</svg>
